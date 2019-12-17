@@ -1,0 +1,14 @@
+${PODS_ROOT}/Target Support Files/Pods-Flash Card Creator/Pods-Flash Card Creator-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AnimatableReload/AnimatableReload.framework
+${BUILT_PRODUCTS_DIR}/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework
+${BUILT_PRODUCTS_DIR}/SwipeSelectingCollectionView/SwipeSelectingCollectionView.framework
+${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework
+${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework
+${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework
+${BUILT_PRODUCTS_DIR}/WXImageCompress/WXImageCompress.framework

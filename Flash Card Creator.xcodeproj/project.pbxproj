@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A92232514A6BF3BCB12D78D /* Pods_Flash_Card_Creator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C919D6FA50187EDB2D6B07 /* Pods_Flash_Card_Creator.framework */; };
+		C90689A12318292B0034B9F3 /* ReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90689A02318292B0034B9F3 /* ReviewService.swift */; };
+		C90EBBFD22A5A6DC00F09F42 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EBBFC22A5A6DC00F09F42 /* SettingsViewController.swift */; };
+		C90EBBFF22A5A6ED00F09F42 /* LanguagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EBBFE22A5A6ED00F09F42 /* LanguagesViewController.swift */; };
+		C91032F2231ECEDD0052DDFF /* ShakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91032F1231ECEDD0052DDFF /* ShakeCell.swift */; };
+		C91ADE2622665CD200DAEFA6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91ADE2522665CD200DAEFA6 /* CollectionViewCell.swift */; };
+		C924441622A70B2A00857079 /* LanguagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924441522A70B2A00857079 /* LanguagesTableViewCell.swift */; };
+		C9446D02233691CC007B4F3B /* RandomString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9446D01233691CC007B4F3B /* RandomString.swift */; };
+		C9446D0423369592007B4F3B /* UITextFieldSetBottomBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9446D0323369592007B4F3B /* UITextFieldSetBottomBorder.swift */; };
+		C9478CD12295BBE200124359 /* Language .swift in Sources */ = {isa = PBXBuildFile; fileRef = C9478CD02295BBE200124359 /* Language .swift */; };
+		C94CACE5228C506300DD68D6 /* DecksCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94CACE4228C506300DD68D6 /* DecksCollectionViewController.swift */; };
+		C95B58AD22C265DD0094663F /* TopCenterAlignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B58AC22C265DD0094663F /* TopCenterAlignLabel.swift */; };
+		C96DCB382265666100E5D57D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96DCB372265666100E5D57D /* AppDelegate.swift */; };
+		C96DCB3D2265666100E5D57D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96DCB3B2265666100E5D57D /* Main.storyboard */; };
+		C96DCB3F2265666200E5D57D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96DCB3E2265666200E5D57D /* Assets.xcassets */; };
+		C96DCB422265666200E5D57D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96DCB402265666200E5D57D /* LaunchScreen.storyboard */; };
+		C96DCB4A2265710500E5D57D /* CardsInDeckCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96DCB492265710500E5D57D /* CardsInDeckCollectionViewController.swift */; };
+		C974A81B22D018E400530A80 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C974A81A22D018E400530A80 /* Mode.swift */; };
+		C990D4BE22CED1E90056E43B /* DarkModeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C990D4BD22CED1E90056E43B /* DarkModeCell.swift */; };
+		C9B614B222843AD60042D4E8 /* CreateCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B614B122843AD60042D4E8 /* CreateCardViewController.swift */; };
+		C9C5D4BF2288BC13004174C9 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5D4BE2288BC13004174C9 /* Deck.swift */; };
+		C9C5D4C12288CF24004174C9 /* CreatDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5D4C02288CF24004174C9 /* CreatDeckViewController.swift */; };
+		C9D63553226581CE00AFC06F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D63552226581CE00AFC06F /* Card.swift */; };
+		C9DA714823A03805006AFF57 /* ReusableFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA714723A03805006AFF57 /* ReusableFunctions.swift */; };
+		C9EDD9E322B0663200023EBA /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDD9E222B0663200023EBA /* CardCollectionViewCell.swift */; };
+		C9EDD9E522B0664C00023EBA /* CardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDD9E422B0664C00023EBA /* CardCollectionViewController.swift */; };
+		C9EDD9E722B06E4E00023EBA /* ChosenLanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDD9E622B06E4E00023EBA /* ChosenLanguageCell.swift */; };
+		C9FD9EA023367464008D4447 /* UIColorExtensionForProvidingHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD9E9F23367464008D4447 /* UIColorExtensionForProvidingHexString.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CCCBCD0437A3AEB04A0FD79 /* Pods-Flash Card Creator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Card Creator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flash Card Creator/Pods-Flash Card Creator.debug.xcconfig"; sourceTree = "<group>"; };
+		94C919D6FA50187EDB2D6B07 /* Pods_Flash_Card_Creator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Card_Creator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90689A02318292B0034B9F3 /* ReviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewService.swift; sourceTree = "<group>"; };
+		C90EBBFC22A5A6DC00F09F42 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C90EBBFE22A5A6ED00F09F42 /* LanguagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesViewController.swift; sourceTree = "<group>"; };
+		C91032F1231ECEDD0052DDFF /* ShakeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeCell.swift; sourceTree = "<group>"; };
+		C91ADE2522665CD200DAEFA6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C924441522A70B2A00857079 /* LanguagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesTableViewCell.swift; sourceTree = "<group>"; };
+		C9446D01233691CC007B4F3B /* RandomString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RandomString.swift; path = "/Users/filipcernov/Desktop/Flash Card Creator/Flash Card Creator/Decks/Controller/Extensions/RandomString.swift"; sourceTree = "<absolute>"; };
+		C9446D0323369592007B4F3B /* UITextFieldSetBottomBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldSetBottomBorder.swift; sourceTree = "<group>"; };
+		C9478CD02295BBE200124359 /* Language .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language .swift"; sourceTree = "<group>"; };
+		C94CACE4228C506300DD68D6 /* DecksCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecksCollectionViewController.swift; sourceTree = "<group>"; };
+		C95B58AC22C265DD0094663F /* TopCenterAlignLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCenterAlignLabel.swift; sourceTree = "<group>"; };
+		C96DCB342265666100E5D57D /* Flash Card Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Card Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96DCB372265666100E5D57D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C96DCB3C2265666100E5D57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C96DCB3E2265666200E5D57D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C96DCB412265666200E5D57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C96DCB492265710500E5D57D /* CardsInDeckCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsInDeckCollectionViewController.swift; sourceTree = "<group>"; };
+		C974A81A22D018E400530A80 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		C97740AB2338147E006F5811 /* x.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = x.plist; sourceTree = "<group>"; };
+		C990D4BD22CED1E90056E43B /* DarkModeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeCell.swift; sourceTree = "<group>"; };
+		C9B614B122843AD60042D4E8 /* CreateCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCardViewController.swift; sourceTree = "<group>"; };
+		C9C5D4BE2288BC13004174C9 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		C9C5D4C02288CF24004174C9 /* CreatDeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatDeckViewController.swift; sourceTree = "<group>"; };
+		C9D63552226581CE00AFC06F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C9DA714723A03805006AFF57 /* ReusableFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableFunctions.swift; sourceTree = "<group>"; };
+		C9EDD9E222B0663200023EBA /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9EDD9E422B0664C00023EBA /* CardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewController.swift; sourceTree = "<group>"; };
+		C9EDD9E622B06E4E00023EBA /* ChosenLanguageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenLanguageCell.swift; sourceTree = "<group>"; };
+		C9FD9E9F23367464008D4447 /* UIColorExtensionForProvidingHexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensionForProvidingHexString.swift; sourceTree = "<group>"; };
+		E4A3BFDE998878581CE6D07F /* Pods-Flash Card Creator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Card Creator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flash Card Creator/Pods-Flash Card Creator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C96DCB312265666100E5D57D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A92232514A6BF3BCB12D78D /* Pods_Flash_Card_Creator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14148786B1174155D0731E9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCCBCD0437A3AEB04A0FD79 /* Pods-Flash Card Creator.debug.xcconfig */,
+				E4A3BFDE998878581CE6D07F /* Pods-Flash Card Creator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7AF6E6D98B43F90FBFFF1684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94C919D6FA50187EDB2D6B07 /* Pods_Flash_Card_Creator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C96DCB2B2265666100E5D57D = {
+			isa = PBXGroup;
+			children = (
+				C96DCB362265666100E5D57D /* Flash Card Creator */,
+				C96DCB352265666100E5D57D /* Products */,
+				14148786B1174155D0731E9E /* Pods */,
+				7AF6E6D98B43F90FBFFF1684 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C96DCB352265666100E5D57D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C96DCB342265666100E5D57D /* Flash Card Creator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C96DCB362265666100E5D57D /* Flash Card Creator */ = {
+			isa = PBXGroup;
+			children = (
+				C96DCB372265666100E5D57D /* AppDelegate.swift */,
+				C9FD9E9A2336615B008D4447 /* Model */,
+				C9FD9E992336614B008D4447 /* View */,
+				C9FD9E98233660B8008D4447 /* Controller */,
+				C96DCB3B2265666100E5D57D /* Main.storyboard */,
+				C96DCB3E2265666200E5D57D /* Assets.xcassets */,
+				C96DCB402265666200E5D57D /* LaunchScreen.storyboard */,
+				C97740AB2338147E006F5811 /* x.plist */,
+			);
+			path = "Flash Card Creator";
+			sourceTree = "<group>";
+		};
+		C9FD9E98233660B8008D4447 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9FD9E9C23367408008D4447 /* Extensions And Reusable Functions */,
+				C94CACE4228C506300DD68D6 /* DecksCollectionViewController.swift */,
+				C9C5D4C02288CF24004174C9 /* CreatDeckViewController.swift */,
+				C90EBBFC22A5A6DC00F09F42 /* SettingsViewController.swift */,
+				C90EBBFE22A5A6ED00F09F42 /* LanguagesViewController.swift */,
+				C96DCB492265710500E5D57D /* CardsInDeckCollectionViewController.swift */,
+				C9EDD9E422B0664C00023EBA /* CardCollectionViewController.swift */,
+				C9B614B122843AD60042D4E8 /* CreateCardViewController.swift */,
+				C90689A02318292B0034B9F3 /* ReviewService.swift */,
+				C95B58AC22C265DD0094663F /* TopCenterAlignLabel.swift */,
+			);
+			name = Controller;
+			path = Decks/Controller;
+			sourceTree = "<group>";
+		};
+		C9FD9E992336614B008D4447 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C990D4BD22CED1E90056E43B /* DarkModeCell.swift */,
+				C924441522A70B2A00857079 /* LanguagesTableViewCell.swift */,
+				C9EDD9E622B06E4E00023EBA /* ChosenLanguageCell.swift */,
+				C91032F1231ECEDD0052DDFF /* ShakeCell.swift */,
+				C91ADE2522665CD200DAEFA6 /* CollectionViewCell.swift */,
+				C9EDD9E222B0663200023EBA /* CardCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9FD9E9A2336615B008D4447 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9FD9E9B23366C36008D4447 /* Realm */,
+				C9478CD02295BBE200124359 /* Language .swift */,
+				C974A81A22D018E400530A80 /* Mode.swift */,
+			);
+			name = Model;
+			path = View/Model;
+			sourceTree = "<group>";
+		};
+		C9FD9E9B23366C36008D4447 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				C9C5D4BE2288BC13004174C9 /* Deck.swift */,
+				C9D63552226581CE00AFC06F /* Card.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		C9FD9E9C23367408008D4447 /* Extensions And Reusable Functions */ = {
+			isa = PBXGroup;
+			children = (
+				C9446D01233691CC007B4F3B /* RandomString.swift */,
+				C9FD9E9F23367464008D4447 /* UIColorExtensionForProvidingHexString.swift */,
+				C9446D0323369592007B4F3B /* UITextFieldSetBottomBorder.swift */,
+				C9DA714723A03805006AFF57 /* ReusableFunctions.swift */,
+			);
+			path = "Extensions And Reusable Functions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C96DCB332265666100E5D57D /* Flash Card Creator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96DCB462265666200E5D57D /* Build configuration list for PBXNativeTarget "Flash Card Creator" */;
+			buildPhases = (
+				3D2577970C356D2134E940DB /* [CP] Check Pods Manifest.lock */,
+				C96DCB302265666100E5D57D /* Sources */,
+				C96DCB312265666100E5D57D /* Frameworks */,
+				C96DCB322265666100E5D57D /* Resources */,
+				0D3973CC63E79C8A39BF0C01 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flash Card Creator";
+			productName = "Flash Card Creator";
+			productReference = C96DCB342265666100E5D57D /* Flash Card Creator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C96DCB2C2265666100E5D57D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Filip Cernov";
+				TargetAttributes = {
+					C96DCB332265666100E5D57D = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = C96DCB2F2265666100E5D57D /* Build configuration list for PBXProject "Flash Card Creator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C96DCB2B2265666100E5D57D;
+			productRefGroup = C96DCB352265666100E5D57D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C96DCB332265666100E5D57D /* Flash Card Creator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C96DCB322265666100E5D57D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96DCB422265666200E5D57D /* LaunchScreen.storyboard in Resources */,
+				C96DCB3F2265666200E5D57D /* Assets.xcassets in Resources */,
+				C96DCB3D2265666100E5D57D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D3973CC63E79C8A39BF0C01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash Card Creator/Pods-Flash Card Creator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash Card Creator/Pods-Flash Card Creator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flash Card Creator/Pods-Flash Card Creator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D2577970C356D2134E940DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flash Card Creator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C96DCB302265666100E5D57D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94CACE5228C506300DD68D6 /* DecksCollectionViewController.swift in Sources */,
+				C91032F2231ECEDD0052DDFF /* ShakeCell.swift in Sources */,
+				C9EDD9E722B06E4E00023EBA /* ChosenLanguageCell.swift in Sources */,
+				C9446D02233691CC007B4F3B /* RandomString.swift in Sources */,
+				C9C5D4BF2288BC13004174C9 /* Deck.swift in Sources */,
+				C91ADE2622665CD200DAEFA6 /* CollectionViewCell.swift in Sources */,
+				C96DCB4A2265710500E5D57D /* CardsInDeckCollectionViewController.swift in Sources */,
+				C990D4BE22CED1E90056E43B /* DarkModeCell.swift in Sources */,
+				C9446D0423369592007B4F3B /* UITextFieldSetBottomBorder.swift in Sources */,
+				C95B58AD22C265DD0094663F /* TopCenterAlignLabel.swift in Sources */,
+				C974A81B22D018E400530A80 /* Mode.swift in Sources */,
+				C9C5D4C12288CF24004174C9 /* CreatDeckViewController.swift in Sources */,
+				C9478CD12295BBE200124359 /* Language .swift in Sources */,
+				C90EBBFF22A5A6ED00F09F42 /* LanguagesViewController.swift in Sources */,
+				C924441622A70B2A00857079 /* LanguagesTableViewCell.swift in Sources */,
+				C90EBBFD22A5A6DC00F09F42 /* SettingsViewController.swift in Sources */,
+				C9B614B222843AD60042D4E8 /* CreateCardViewController.swift in Sources */,
+				C9D63553226581CE00AFC06F /* Card.swift in Sources */,
+				C9EDD9E522B0664C00023EBA /* CardCollectionViewController.swift in Sources */,
+				C90689A12318292B0034B9F3 /* ReviewService.swift in Sources */,
+				C9FD9EA023367464008D4447 /* UIColorExtensionForProvidingHexString.swift in Sources */,
+				C9EDD9E322B0663200023EBA /* CardCollectionViewCell.swift in Sources */,
+				C9DA714823A03805006AFF57 /* ReusableFunctions.swift in Sources */,
+				C96DCB382265666100E5D57D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C96DCB3B2265666100E5D57D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96DCB3C2265666100E5D57D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C96DCB402265666200E5D57D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96DCB412265666200E5D57D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C96DCB442265666200E5D57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C96DCB452265666200E5D57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C96DCB472265666200E5D57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCCBCD0437A3AEB04A0FD79 /* Pods-Flash Card Creator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = 3QCJKKKPU8;
+				INFOPLIST_FILE = "$(SRCROOT)/Flash Card Creator/x.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filipcernov.FlashCard-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flash Card Creator/Flash Card Creator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C96DCB482265666200E5D57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A3BFDE998878581CE6D07F /* Pods-Flash Card Creator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = 3QCJKKKPU8;
+				INFOPLIST_FILE = "$(SRCROOT)/Flash Card Creator/x.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filipcernov.FlashCard-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flash Card Creator/Flash Card Creator-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C96DCB2F2265666100E5D57D /* Build configuration list for PBXProject "Flash Card Creator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96DCB442265666200E5D57D /* Debug */,
+				C96DCB452265666200E5D57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96DCB462265666200E5D57D /* Build configuration list for PBXNativeTarget "Flash Card Creator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96DCB472265666200E5D57D /* Debug */,
+				C96DCB482265666200E5D57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C96DCB2C2265666100E5D57D /* Project object */;
+}
