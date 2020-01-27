@@ -14,7 +14,6 @@
 		C91032F2231ECEDD0052DDFF /* ShakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91032F1231ECEDD0052DDFF /* ShakeCell.swift */; };
 		C91ADE2622665CD200DAEFA6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91ADE2522665CD200DAEFA6 /* CollectionViewCell.swift */; };
 		C924441622A70B2A00857079 /* LanguagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924441522A70B2A00857079 /* LanguagesTableViewCell.swift */; };
-		C9446D02233691CC007B4F3B /* RandomString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9446D01233691CC007B4F3B /* RandomString.swift */; };
 		C9446D0423369592007B4F3B /* UITextFieldSetBottomBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9446D0323369592007B4F3B /* UITextFieldSetBottomBorder.swift */; };
 		C9478CD12295BBE200124359 /* Language .swift in Sources */ = {isa = PBXBuildFile; fileRef = C9478CD02295BBE200124359 /* Language .swift */; };
 		C94CACE5228C506300DD68D6 /* DecksCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94CACE4228C506300DD68D6 /* DecksCollectionViewController.swift */; };
@@ -46,7 +45,6 @@
 		C91032F1231ECEDD0052DDFF /* ShakeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeCell.swift; sourceTree = "<group>"; };
 		C91ADE2522665CD200DAEFA6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		C924441522A70B2A00857079 /* LanguagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesTableViewCell.swift; sourceTree = "<group>"; };
-		C9446D01233691CC007B4F3B /* RandomString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RandomString.swift; path = "/Users/filipcernov/Desktop/Flash Card Creator/Flash Card Creator/Decks/Controller/Extensions/RandomString.swift"; sourceTree = "<absolute>"; };
 		C9446D0323369592007B4F3B /* UITextFieldSetBottomBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldSetBottomBorder.swift; sourceTree = "<group>"; };
 		C9478CD02295BBE200124359 /* Language .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language .swift"; sourceTree = "<group>"; };
 		C94CACE4228C506300DD68D6 /* DecksCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecksCollectionViewController.swift; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 		C9FD9E9C23367408008D4447 /* Extensions And Reusable Functions */ = {
 			isa = PBXGroup;
 			children = (
-				C9446D01233691CC007B4F3B /* RandomString.swift */,
 				C9FD9E9F23367464008D4447 /* UIColorExtensionForProvidingHexString.swift */,
 				C9446D0323369592007B4F3B /* UITextFieldSetBottomBorder.swift */,
 				C9DA714723A03805006AFF57 /* ReusableFunctions.swift */,
@@ -315,7 +312,6 @@
 				C94CACE5228C506300DD68D6 /* DecksCollectionViewController.swift in Sources */,
 				C91032F2231ECEDD0052DDFF /* ShakeCell.swift in Sources */,
 				C9EDD9E722B06E4E00023EBA /* ChosenLanguageCell.swift in Sources */,
-				C9446D02233691CC007B4F3B /* RandomString.swift in Sources */,
 				C9C5D4BF2288BC13004174C9 /* Deck.swift in Sources */,
 				C91ADE2622665CD200DAEFA6 /* CollectionViewCell.swift in Sources */,
 				C96DCB4A2265710500E5D57D /* CardsInDeckCollectionViewController.swift in Sources */,

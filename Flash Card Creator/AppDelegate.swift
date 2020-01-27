@@ -54,15 +54,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 // Tell Realm to use this new configuration object for the default Realm
                 Realm.Configuration.defaultConfiguration = config
         
-                // Now that we've told Realm how to handle the schema change, opening the file
-                // will automatically perform the migration
-                let _ = try! Realm()
-        
-             
   
 
-
-     
         
         
         do {
@@ -74,6 +67,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
+    
+
 
 
 
@@ -81,3 +76,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 
+
+
+extension String {
+
+    static func random(length: Int = 20) -> String {
+        let base = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        var randomString: String = ""
+
+        for _ in 0..<length {
+            let randomValue = arc4random_uniform(UInt32(base.count))
+            randomString += "\(base[base.index(base.startIndex, offsetBy: Int(randomValue))])"
+        }
+        return randomString
+    }
+}
