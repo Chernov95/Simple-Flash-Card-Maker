@@ -321,11 +321,7 @@ extension CardCollectionViewController {
             UserDefaults.standard.set(0, forKey: "Dark mode by default")
         }
         
-        if UserDefaults.standard.value(forKey: "ChosenMode") != nil {
-            indexForMode = UserDefaults.standard.value(forKeyPath: "ChosenMode" ) as? Int
-        } else {
-            indexForMode = UserDefaults.standard.value(forKey : "Dark mode by default" ) as? Int
-        }
+        indexForMode = UserDefaults.standard.value(forKey: "ChosenMode") != nil ? UserDefaults.standard.value(forKeyPath: "ChosenMode" ) as? Int : UserDefaults.standard.value(forKey : "Dark mode by default" ) as? Int
         
         mode = Mode.fetchModes()[indexForMode!]
         swapActionToSetImage.setImage(UIImage(named: (mode?.imageSwapAction)!), for: .normal)
@@ -338,14 +334,10 @@ extension CardCollectionViewController {
     
       func setUIDependingOnChosenLanguage () {
           
-          var index : Int?
-          if UserDefaults.standard.value(forKey: "ChosenLanguage") != nil {
-              index = UserDefaults.standard.value(forKey: "ChosenLanguage") as? Int
-          }else {
-              index = UserDefaults.standard.value(forKey:  "Language by default") as? Int
-          }
+         
+         let index = UserDefaults.standard.value(forKey: "ChosenLanguage") != nil ? UserDefaults.standard.value(forKey: "ChosenLanguage") as? Int : UserDefaults.standard.value(forKey:  "Language by default") as? Int
           
-          print("Index is \(index!)")
+      
           
           language = Language.fetchLanguages()[index!]
           wordForProgressLabel = language?.counter
