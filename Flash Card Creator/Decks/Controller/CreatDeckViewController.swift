@@ -46,8 +46,10 @@ class CreatDeckViewController: UIViewController {
         
         decks = realm.objects(Deck.self)
         popup.alpha = 0
-        nameOfDeck.setBottomBorder(color: "E3E4E5" )
         
+        setAppearanceOfTextFieldWhichTakesNameOfTheDeck()
+        
+  
 
         
     }
@@ -120,6 +122,11 @@ class CreatDeckViewController: UIViewController {
         }
         popup.alpha = 1
         
+    }
+    
+    func setAppearanceOfTextFieldWhichTakesNameOfTheDeck() {
+        nameOfDeck.setBottomBorder(color: "E3E4E5" )
+        nameOfDeck.textColor = .black
     }
     
 }
