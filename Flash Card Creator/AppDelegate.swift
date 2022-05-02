@@ -23,10 +23,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last as! String)
         
         
-        UITextView.appearance().tintColor = .lightGray
+//        UITextView.appearance().tintColor = .lightGray
         addingStyleToNavBar()
+        UISearchBar.appearance().backgroundColor = .clear  // Add your color
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).defaultTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
         
-    
+      
+        
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).backgroundColor = .white
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).tintColor = .darkGray
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).leftView?.tintColor = .blue
+
         
         IQKeyboardManager.shared.enable = true
         
@@ -89,6 +96,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
+}
+
+extension UISearchBar {
+func setCenteredPlaceHolder(){
+    let textFieldInsideSearchBar = self.value(forKey: "searchField") as? UITextField
+
+    //get the sizes
+    let searchBarWidth = self.frame.width
+    let placeholderIconWidth = textFieldInsideSearchBar?.leftView?.frame.width
+    let placeHolderWidth = textFieldInsideSearchBar?.attributedPlaceholder?.size().width
+    let offsetIconToPlaceholder: CGFloat = 8
+    let placeHolderWithIcon = placeholderIconWidth! + offsetIconToPlaceholder
+
+    let offset = UIOffset(horizontal: ((searchBarWidth / 2) - (placeHolderWidth! / 2) - placeHolderWithIcon), vertical: 0)
+    self.setPositionAdjustment(offset, for: .search)
+}
 }
 
 

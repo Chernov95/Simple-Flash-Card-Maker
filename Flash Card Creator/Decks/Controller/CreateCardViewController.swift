@@ -156,12 +156,11 @@ class CreateCardViewController: UIViewController ,UITextViewDelegate  {
         setUIDependingOnMode()
         popup.alpha = 0
         setUIAfterOpeningCreateCardViewControllerOrAfterAddingNewCard()
-        print("Index for saving in realm is \(indexForSavingInRealm)")
         
        
         if #available(iOS 13.0, *) {
-                   overrideUserInterfaceStyle = .light
-               }
+            overrideUserInterfaceStyle = .light
+        }
    
     }
     

@@ -341,13 +341,14 @@ class DecksCollectionViewController: UICollectionViewController  {
             sc.searchBar.delegate = self
             self.definesPresentationContext = true
             let scb = sc.searchBar
+            if #available(iOS 13.0, *) {
+                scb.searchTextField.leftView?.tintColor = .white
+            }
             scb.tintColor = UIColor.white
-            scb.barTintColor = UIColor.white
+
             if let textfield = scb.value(forKey: "searchField") as? UITextField {
                 textfield.textColor = UIColor.blue
                 if let backgroundview = textfield.subviews.first {
-                    // Background color
-                    backgroundview.backgroundColor = UIColor.white
                     // Rounded corner
                     backgroundview.layer.cornerRadius = 10;
                     backgroundview.clipsToBounds = true;
@@ -357,6 +358,7 @@ class DecksCollectionViewController: UICollectionViewController  {
             if let navigationbar = self.navigationController?.navigationBar {
                 //C9C9C9
                 navigationbar.barTintColor = UIColor(hexString: "54B5F2")
+            
             
             }
             navigationItem.searchController = sc
@@ -509,7 +511,6 @@ extension DecksCollectionViewController {
             statusBarView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
         ])
         statusBarView.backgroundColor = color
-        
     }
 }
 
@@ -547,9 +548,7 @@ extension DecksCollectionViewController : ReloadDecksCollectionViewControllerDel
      }
      
      func blockSettingsButtonFromSecondDelegate() {
-
          navigationItem.searchController?.searchBar.isUserInteractionEnabled = true
-      
      }
      
     

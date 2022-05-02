@@ -769,6 +769,10 @@ extension CardsInDeckCollectionViewController {
                 scb.tintColor = UIColor.white
                 scb.barTintColor = UIColor.white
                 
+                if #available(iOS 13.0, *) {
+                    scb.searchTextField.leftView?.tintColor = .white
+                }
+                
                 if let textfield = scb.value(forKey: "searchField") as? UITextField {
                     textfield.textColor = UIColor.blue
                     if let backgroundview = textfield.subviews.first {
