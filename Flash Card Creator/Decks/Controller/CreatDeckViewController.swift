@@ -46,8 +46,10 @@ class CreatDeckViewController: UIViewController {
         
         decks = realm.objects(Deck.self)
         popup.alpha = 0
-        nameOfDeck.setBottomBorder(color: "E3E4E5" )
         
+        setAppearanceOfTextFieldWhichTakesNameOfTheDeck()
+        
+  
 
         
     }
@@ -122,18 +124,17 @@ class CreatDeckViewController: UIViewController {
         
     }
     
+    func setAppearanceOfTextFieldWhichTakesNameOfTheDeck() {
+        nameOfDeck.setBottomBorder(color: "E3E4E5" )
+        nameOfDeck.textColor = .black
+    }
+    
 }
 
 
 extension CreatDeckViewController {
     func setUIDependingOnChosenLanguage () {
-        
-        var index : Int?
-        if UserDefaults.standard.value(forKey: "ChosenLanguage") != nil {
-            index = UserDefaults.standard.value(forKey: "ChosenLanguage") as? Int
-        }else {
-            index = UserDefaults.standard.value(forKey:  "Language by default") as? Int
-        }
+        let index = UserDefaults.standard.value(forKey: "ChosenLanguage") != nil ? UserDefaults.standard.value(forKey: "ChosenLanguage") as? Int : UserDefaults.standard.value(forKey:  "Language by default") as? Int
         language = Language.fetchLanguages()[index!]
         nameOfDeck.placeholder  = language?.enterADeckName
         wrongLabelOnPopUp.text = language?.wrong

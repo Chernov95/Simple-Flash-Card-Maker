@@ -302,11 +302,9 @@ extension SettingsViewController {
                UserDefaults.standard.set(0, forKey: "Dark mode by default")
            }
            
-           if UserDefaults.standard.value(forKey: "ChosenMode") != nil {
-               indexOfChosenMode = UserDefaults.standard.value(forKeyPath: "ChosenMode" ) as? Int
-           } else {
-               indexOfChosenMode = UserDefaults.standard.value(forKey : "Dark mode by default" ) as? Int
-           }
+          
+           indexOfChosenMode = UserDefaults.standard.value(forKey: "ChosenMode") != nil ? UserDefaults.standard.value(forKeyPath: "ChosenMode" ) as? Int : UserDefaults.standard.value(forKey : "Dark mode by default" ) as? Int
+        
            mode = Mode.fetchModes()[indexOfChosenMode!]
            tableView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
            viewOverTableView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
@@ -316,11 +314,9 @@ extension SettingsViewController {
     
        
        func setUIDependingOnChosenLanguage () {
-           if UserDefaults.standard.value(forKey: "ChosenLanguage") != nil {
-               indexOfChosenLanguage = UserDefaults.standard.value(forKey: "ChosenLanguage") as? Int
-           }else {
-               indexOfChosenLanguage = UserDefaults.standard.value(forKey:  "Language by default") as? Int
-           }
+        
+           indexOfChosenLanguage = UserDefaults.standard.value(forKey: "ChosenLanguage") != nil ? UserDefaults.standard.value(forKey: "ChosenLanguage") as? Int : UserDefaults.standard.value(forKey:  "Language by default") as? Int
+        
            language = Language.fetchLanguages()[indexOfChosenLanguage!]
            closeButton.setTitle(language?.closeButton, for: .normal)
        }
