@@ -577,6 +577,20 @@ extension CardsInDeckCollectionViewController : UISearchBarDelegate {
 
     }
     
+    func addingCustomStatusBar (color: UIColor) {
+        let statusBarView = UIView()
+        view.addSubview(statusBarView)
+        statusBarView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            statusBarView.topAnchor.constraint(equalTo: view.topAnchor),
+            statusBarView.leftAnchor.constraint(equalTo: view.leftAnchor),
+            statusBarView.rightAnchor.constraint(equalTo: view.rightAnchor),
+            statusBarView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
+        ])
+        statusBarView.backgroundColor = color
+        
+    }
+    
     
     
     
@@ -598,8 +612,9 @@ extension CardsInDeckCollectionViewController {
             
             collectionOfViews.backgroundColor = UIColor(hexString: (mode?.backGroundForCards)!)
             swipeActionImage.setImage(UIImage(named: (mode?.imageSwapAction)!), for: .normal)
-             navigationController?.navigationBar.barTintColor = UIColor(hexString: (mode?.navBarColor)!)
- 
+            navigationController?.navigationBar.barTintColor = UIColor(hexString: (mode?.navBarColor)!)
+         addingCustomStatusBar(color: UIColor(hexString: (mode?.navBarColor)!))
+        
             
       
             
@@ -627,6 +642,8 @@ extension CardsInDeckCollectionViewController {
            
             
         }
+    
+   
 }
 
 extension CardsInDeckCollectionViewController {

@@ -178,6 +178,20 @@ class CardCollectionViewController: UICollectionViewController {
         
     }
     
+    func addingCustomStatusBar (color: UIColor) {
+        let statusBarView = UIView()
+        view.addSubview(statusBarView)
+        statusBarView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            statusBarView.topAnchor.constraint(equalTo: view.topAnchor),
+            statusBarView.leftAnchor.constraint(equalTo: view.leftAnchor),
+            statusBarView.rightAnchor.constraint(equalTo: view.rightAnchor),
+            statusBarView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
+        ])
+        statusBarView.backgroundColor = color
+        
+    }
+    
 
     
    
@@ -326,6 +340,7 @@ extension CardCollectionViewController {
         mode = Mode.fetchModes()[indexForMode!]
         swapActionToSetImage.setImage(UIImage(named: (mode?.imageSwapAction)!), for: .normal)
         collectionView.backgroundView?.backgroundColor =  UIColor(hexString: (mode?.backgroundForCardsinCardViewController)!)
+        addingCustomStatusBar(color: UIColor(hexString: (mode?.navBarColor)!))
         
         
         

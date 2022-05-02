@@ -48,6 +48,9 @@ class DecksCollectionViewController: UICollectionViewController  {
         }else{
             navigationItem.searchController?.isActive = false
         }
+        
+        super.viewWillAppear(animated)
+        setNeedsStatusBarAppearanceUpdate()
     }
 
   
@@ -62,8 +65,12 @@ class DecksCollectionViewController: UICollectionViewController  {
         createSearchBar()
         checkShake()
         
-        
     }
+    
+  
+    
+  
+  
 
     
 
@@ -186,6 +193,7 @@ class DecksCollectionViewController: UICollectionViewController  {
         let numberLabel = cell.viewWithTag(456) as! UILabel
         nameLabel.text = decks![indexPath.item].name
         numberLabel.text = "\(decks![indexPath.item].cards.count)"
+        numberLabel.textColor = .black
         numberLabel.font = optimisedfindAdaptiveFontWithName(fontName: "Avenir Next Demi Bold", label: numberLabel, minSize: 1, maxSize: 17)
         numberLabel.numberOfLines = 0
         cell.delegate = self
@@ -194,7 +202,6 @@ class DecksCollectionViewController: UICollectionViewController  {
         cell.setNeedsLayout()
         
         return cell
-        
     }
     
     // MARK: - did selected item at
@@ -412,6 +419,8 @@ class DecksCollectionViewController: UICollectionViewController  {
         
         collectionView.isUserInteractionEnabled = true
     }
+    
+
 
 
 }
@@ -479,6 +488,30 @@ extension DecksCollectionViewController {
         navigationController?.navigationBar.barTintColor = UIColor(hexString: (mode?.navBarColor)!)
         collectionView.backgroundColor = UIColor(hexString: (mode?.backroundOfDecksCollectionViewController)!)
         goToSettingToControlActivity.setImage(UIImage(named: (mode?.settingsButton)!), for: .normal)
+        addingCustomStatusBar(color: UIColor(hexString: mode!.navBarColor!))
+        
+        let mode = Mode.fetchModes()[indexOfChosenMode!]
+        let navigationBarAppearace = UINavigationBar.appearance()
+        navigationBarAppearace.tintColor = .white
+        navigationBarAppearace.backgroundColor = UIColor(hexString: mode.navBarColor!)
+
+
+        
+        
+    }
+    
+    func addingCustomStatusBar (color: UIColor) {
+        let statusBarView = UIView()
+        view.addSubview(statusBarView)
+        statusBarView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            statusBarView.topAnchor.constraint(equalTo: view.topAnchor),
+            statusBarView.leftAnchor.constraint(equalTo: view.leftAnchor),
+            statusBarView.rightAnchor.constraint(equalTo: view.rightAnchor),
+            statusBarView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
+        ])
+        statusBarView.backgroundColor = color
+        
     }
 }
 

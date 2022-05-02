@@ -24,8 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         UITextView.appearance().tintColor = .lightGray
+        addingStyleToNavBar()
         
-        var navigationBarAppearace = UINavigationBar.appearance()
+    
+        
         IQKeyboardManager.shared.enable = true
         
         
@@ -71,6 +73,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
 
+    func addingStyleToNavBar() {
+        if UserDefaults.standard.value(forKeyPath: "ChosenMode") == nil {
+            UserDefaults.standard.set(0, forKey: "Dark mode by default")
+        }
+        
+        let indexOfChosenMode = UserDefaults.standard.value(forKey: "ChosenMode") != nil ? UserDefaults.standard.value(forKeyPath: "ChosenMode" ) as? Int : UserDefaults.standard.value(forKey : "Dark mode by default" ) as? Int
+        
+        let mode = Mode.fetchModes()[indexOfChosenMode!]
+        let navigationBarAppearace = UINavigationBar.appearance()
+        navigationBarAppearace.tintColor = .white
+        navigationBarAppearace.backgroundColor = UIColor(hexString: mode.navBarColor!)
+    }
 
 
 

@@ -22,6 +22,7 @@ class CreatDeckViewController: UIViewController {
     weak var reloadDecksCollectionViewControllerDelegate : ReloadDecksCollectionViewControllerDelegate?
     var decks : Results<Deck>?
     var language : Language?
+  
     
     
     
@@ -127,6 +128,7 @@ class CreatDeckViewController: UIViewController {
     func setAppearanceOfTextFieldWhichTakesNameOfTheDeck() {
         nameOfDeck.setBottomBorder(color: "E3E4E5" )
         nameOfDeck.textColor = .black
+        
     }
     
 }
