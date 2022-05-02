@@ -159,7 +159,9 @@ class CreateCardViewController: UIViewController ,UITextViewDelegate  {
         print("Index for saving in realm is \(indexForSavingInRealm)")
         
        
-        
+        if #available(iOS 13.0, *) {
+                   overrideUserInterfaceStyle = .light
+               }
    
     }
     

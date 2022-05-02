@@ -494,9 +494,7 @@ extension DecksCollectionViewController {
         let navigationBarAppearace = UINavigationBar.appearance()
         navigationBarAppearace.tintColor = .white
         navigationBarAppearace.backgroundColor = UIColor(hexString: mode.navBarColor!)
-
-
-        
+  
         
     }
     
