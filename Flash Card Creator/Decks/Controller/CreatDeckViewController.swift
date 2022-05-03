@@ -128,6 +128,7 @@ class CreatDeckViewController: UIViewController {
     func setAppearanceOfTextFieldWhichTakesNameOfTheDeck() {
         nameOfDeck.setBottomBorder(color: "E3E4E5" )
         nameOfDeck.textColor = .black
+        nameOfDeck.tintColor = .black
         
     }
     
