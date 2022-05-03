@@ -33,6 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).backgroundColor = .white
         UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).tintColor = .darkGray
         UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).leftView?.tintColor = .blue
+        
+        UITextView.appearance().tintColor = .darkGray
 
         
         IQKeyboardManager.shared.enable = true
