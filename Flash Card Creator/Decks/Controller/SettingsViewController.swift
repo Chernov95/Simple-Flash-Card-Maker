@@ -151,7 +151,7 @@ extension SettingsViewController : UITableViewDataSource , UITableViewDelegate {
                       }
                       cell.contentView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
                       cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
-                      
+                     
                       
                       return cell
                       
@@ -163,6 +163,7 @@ extension SettingsViewController : UITableViewDataSource , UITableViewDelegate {
                       cell.chosenLanguageLabel.textColor = UIColor(hexString: (mode?.chosenLanguageColor)!)
                       cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
                       cell.contentView.superview!.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
+                     
                       return cell
                       
                   }else if indexPath.row == 2 {
@@ -183,6 +184,7 @@ extension SettingsViewController : UITableViewDataSource , UITableViewDelegate {
                       cell.shakingName.adjustsFontSizeToFitWidth = true
                       cell.shakingName.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
                       //настроить размер текста
+                     
                       return cell
                   }
                   
@@ -200,6 +202,7 @@ extension SettingsViewController : UITableViewDataSource , UITableViewDelegate {
                       cell.textLabel?.textAlignment = .center
                       cell.contentView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
                       cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
+                      
                       return cell
                   }
               }

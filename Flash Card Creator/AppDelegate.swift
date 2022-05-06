@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
       
         
-        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).backgroundColor = .white
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).backgroundColor = UIColor.white
         UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).tintColor = .darkGray
         UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).leftView?.tintColor = .blue
         
