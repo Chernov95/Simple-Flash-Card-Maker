@@ -40,6 +40,7 @@ class DecksCollectionViewController: UICollectionViewController  {
     
 
     override func viewWillAppear(_ animated: Bool) {
+
         loadItems()
         setUIDependingOnChosenLanguage()
         setUIDependingOnMode()
@@ -57,13 +58,14 @@ class DecksCollectionViewController: UICollectionViewController  {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
         loadItems()
         setUIDependingOnChosenLanguage()
         setUIDependingOnMode()
         animationAfterLoading()
         createSearchBar()
         checkShake()
+        
         
     }
     
@@ -344,9 +346,11 @@ class DecksCollectionViewController: UICollectionViewController  {
             let scb = sc.searchBar
             scb.tintColor = UIColor.white
             scb.barTintColor = UIColor.white
+                        
             
             if #available(iOS 13.0, *) {
                 scb.searchTextField.leftView?.tintColor = .white
+                scb.overrideUserInterfaceStyle = .light
             }
           
 

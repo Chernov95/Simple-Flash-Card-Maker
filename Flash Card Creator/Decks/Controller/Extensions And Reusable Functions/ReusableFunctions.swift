@@ -21,4 +21,6 @@ class Helper {
             try! fileManager.removeItem(atPath: imagePath)
         }
     }
+    
+    
 }

@@ -771,6 +771,7 @@ extension CardsInDeckCollectionViewController {
                 
                 if #available(iOS 13.0, *) {
                     scb.searchTextField.leftView?.tintColor = .white
+                    scb.overrideUserInterfaceStyle = .light
                 }
                 
                 if let textfield = scb.value(forKey: "searchField") as? UITextField {
