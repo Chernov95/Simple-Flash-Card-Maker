@@ -14,7 +14,9 @@ class DarkModeCell: UITableViewCell {
     
     
     
+    @IBOutlet weak var modeName: UILabel!
     @IBOutlet weak var darkModeSwitch: UISwitch!
+    
     
     
 

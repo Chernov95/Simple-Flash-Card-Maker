@@ -137,8 +137,12 @@ extension SettingsViewController : UITableViewDataSource , UITableViewDelegate {
               if indexPath.section == 0 {
                   if indexPath.row == 0 {
                       let cell = tableView.dequeueReusableCell(withIdentifier: "mode", for: indexPath) as! DarkModeCell
-                      cell.textLabel?.text = language?.darkMode
-                      cell.textLabel?.textAlignment = .center
+//                      cell.textLabel?.text = language?.darkMode
+                      cell.modeName.text = language?.darkMode
+                      cell.modeName.adjustsFontSizeToFitWidth = true
+                      cell.modeName.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
+                      cell.contentView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
+
                       if userDefault.value(forKeyPath: "Dark mode by default") == nil {
                           if userDefault.value(forKeyPath: "ChosenMode") as? Int == 1 {
                               cell.darkModeSwitch.setOn(true, animated: false)
@@ -149,19 +153,25 @@ extension SettingsViewController : UITableViewDataSource , UITableViewDelegate {
                       }else{
                           cell.darkModeSwitch.setOn(false, animated: false)
                       }
-                      cell.contentView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
-                      cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
-                     
+//                      cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
+//                      cell.textLabel?.adjustsFontSizeToFitWidth = true
+                    
                       
                       return cell
                       
                   }else if indexPath.row == 1 {
                       let cell = tableView.dequeueReusableCell(withIdentifier: "language", for: indexPath) as! ChosenLanguageCell
-                      cell.textLabel?.text = language?.laguage
-                      cell.textLabel?.textAlignment = .center
+//                      cell.textLabel?.text = language?.laguage
+//                      cell.textLabel?.textAlignment = .center
+                      cell.languageLabel.text = language?.laguage
+                      cell.languageLabel.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
                       cell.chosenLanguageLabel.text = language?.selectedLanguage
                       cell.chosenLanguageLabel.textColor = UIColor(hexString: (mode?.chosenLanguageColor)!)
-                      cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
+                      cell.languageLabel.adjustsFontSizeToFitWidth = true
+                      cell.chosenLanguageLabel.adjustsFontSizeToFitWidth = true
+//                      cell.contentView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
+
+//                      cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
                       cell.contentView.superview!.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
                      
                       return cell
@@ -190,18 +200,32 @@ extension SettingsViewController : UITableViewDataSource , UITableViewDelegate {
                   
               }else if indexPath.section == 1 {
                   if indexPath.row == 0 {
-                      let cell = tableView.dequeueReusableCell(withIdentifier: "rateTheApp", for: indexPath)
-                      cell.textLabel?.text = language?.ratetheApp
-                      cell.textLabel?.textAlignment = .center
+                      let cell = tableView.dequeueReusableCell(withIdentifier: "rateTheApp", for: indexPath) as! RateTheAppCell
+//                      cell.textLabel?.text = language?.ratetheApp
+//                      cell.textLabel?.textAlignment = .center
+//                      cell.contentView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
+//                      cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
                       cell.contentView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
-                      cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
+                      cell.rateTheAppLabel.text = language?.ratetheApp
+                      cell.rateTheAppLabel.adjustsFontSizeToFitWidth = true
+                      cell.rateTheAppLabel.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
+                      
+                      
+                      
+                      
+                      
                       return cell
                   }else if indexPath.row == 1 {
-                      let cell = tableView.dequeueReusableCell(withIdentifier: "sendUsFeedback", for: indexPath)
-                      cell.textLabel?.text = language?.sendUsFeedback
-                      cell.textLabel?.textAlignment = .center
+                      let cell = tableView.dequeueReusableCell(withIdentifier: "sendUsFeedback", for: indexPath) as! SendUsFeedbackCell
+//                      cell.textLabel?.text = language?.sendUsFeedback
+//                      cell.textLabel?.textAlignment = .center
+//                      cell.contentView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
+//                      cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
                       cell.contentView.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
-                      cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
+                      cell.sendUsFeedbackLabel.text = language?.sendUsFeedback
+                      cell.sendUsFeedbackLabel.adjustsFontSizeToFitWidth = true
+                      cell.sendUsFeedbackLabel.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
+
                       
                       return cell
                   }

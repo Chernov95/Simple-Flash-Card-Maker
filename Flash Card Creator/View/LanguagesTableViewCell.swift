@@ -11,6 +11,7 @@ import UIKit
 class LanguagesTableViewCell: UITableViewCell {
 
 
+    @IBOutlet weak var languagesLabel: UILabel!
     @IBOutlet weak var languageImage: UIImageView!
     
     

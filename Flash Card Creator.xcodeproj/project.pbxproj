@@ -25,6 +25,8 @@
 		C96DCB4A2265710500E5D57D /* CardsInDeckCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96DCB492265710500E5D57D /* CardsInDeckCollectionViewController.swift */; };
 		C974A81B22D018E400530A80 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C974A81A22D018E400530A80 /* Mode.swift */; };
 		C990D4BE22CED1E90056E43B /* DarkModeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C990D4BD22CED1E90056E43B /* DarkModeCell.swift */; };
+		C9964D25282C258200EEE4C6 /* RateTheAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9964D24282C258200EEE4C6 /* RateTheAppCell.swift */; };
+		C9964D27282C26E800EEE4C6 /* SendUsFeedbackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9964D26282C26E800EEE4C6 /* SendUsFeedbackCell.swift */; };
 		C9B614B222843AD60042D4E8 /* CreateCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B614B122843AD60042D4E8 /* CreateCardViewController.swift */; };
 		C9C5D4BF2288BC13004174C9 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5D4BE2288BC13004174C9 /* Deck.swift */; };
 		C9C5D4C12288CF24004174C9 /* CreatDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5D4C02288CF24004174C9 /* CreatDeckViewController.swift */; };
@@ -58,6 +60,8 @@
 		C974A81A22D018E400530A80 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
 		C97740AB2338147E006F5811 /* x.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = x.plist; sourceTree = "<group>"; };
 		C990D4BD22CED1E90056E43B /* DarkModeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeCell.swift; sourceTree = "<group>"; };
+		C9964D24282C258200EEE4C6 /* RateTheAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTheAppCell.swift; sourceTree = "<group>"; };
+		C9964D26282C26E800EEE4C6 /* SendUsFeedbackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendUsFeedbackCell.swift; sourceTree = "<group>"; };
 		C9B614B122843AD60042D4E8 /* CreateCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCardViewController.swift; sourceTree = "<group>"; };
 		C9C5D4BE2288BC13004174C9 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		C9C5D4C02288CF24004174C9 /* CreatDeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatDeckViewController.swift; sourceTree = "<group>"; };
@@ -153,9 +157,11 @@
 		C9FD9E992336614B008D4447 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C9964D26282C26E800EEE4C6 /* SendUsFeedbackCell.swift */,
 				C990D4BD22CED1E90056E43B /* DarkModeCell.swift */,
 				C924441522A70B2A00857079 /* LanguagesTableViewCell.swift */,
 				C9EDD9E622B06E4E00023EBA /* ChosenLanguageCell.swift */,
+				C9964D24282C258200EEE4C6 /* RateTheAppCell.swift */,
 				C91032F1231ECEDD0052DDFF /* ShakeCell.swift */,
 				C91ADE2522665CD200DAEFA6 /* CollectionViewCell.swift */,
 				C9EDD9E222B0663200023EBA /* CardCollectionViewCell.swift */,
@@ -314,6 +320,7 @@
 				C9EDD9E722B06E4E00023EBA /* ChosenLanguageCell.swift in Sources */,
 				C9C5D4BF2288BC13004174C9 /* Deck.swift in Sources */,
 				C91ADE2622665CD200DAEFA6 /* CollectionViewCell.swift in Sources */,
+				C9964D25282C258200EEE4C6 /* RateTheAppCell.swift in Sources */,
 				C96DCB4A2265710500E5D57D /* CardsInDeckCollectionViewController.swift in Sources */,
 				C990D4BE22CED1E90056E43B /* DarkModeCell.swift in Sources */,
 				C9446D0423369592007B4F3B /* UITextFieldSetBottomBorder.swift in Sources */,
@@ -329,6 +336,7 @@
 				C9EDD9E522B0664C00023EBA /* CardCollectionViewController.swift in Sources */,
 				C90689A12318292B0034B9F3 /* ReviewService.swift in Sources */,
 				C9FD9EA023367464008D4447 /* UIColorExtensionForProvidingHexString.swift in Sources */,
+				C9964D27282C26E800EEE4C6 /* SendUsFeedbackCell.swift in Sources */,
 				C9EDD9E322B0663200023EBA /* CardCollectionViewCell.swift in Sources */,
 				C9DA714823A03805006AFF57 /* ReusableFunctions.swift in Sources */,
 				C96DCB382265666100E5D57D /* AppDelegate.swift in Sources */,
@@ -481,14 +489,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 3QCJKKKPU8;
 				INFOPLIST_FILE = "$(SRCROOT)/Flash Card Creator/x.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.filipcernov.FlashCard-Maker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -507,14 +515,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 3QCJKKKPU8;
 				INFOPLIST_FILE = "$(SRCROOT)/Flash Card Creator/x.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.filipcernov.FlashCard-Maker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

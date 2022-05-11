@@ -10,6 +10,7 @@ import UIKit
 
 class ChosenLanguageCell: UITableViewCell {
    
+    @IBOutlet weak var languageLabel: UILabel!
     @IBOutlet weak var chosenLanguageLabel: UILabel!
     
 }

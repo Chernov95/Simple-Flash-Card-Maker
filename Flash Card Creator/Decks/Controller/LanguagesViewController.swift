@@ -97,8 +97,10 @@ extension LanguagesViewController : UITableViewDataSource , UITableViewDelegate 
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! LanguagesTableViewCell
         cell.languageImage.image = UIImage(named: nameOfPicturesForLanguage[indexPath.row])
-        cell.textLabel?.text = arrayOfLanguages[indexPath.row]
-        cell.textLabel?.textAlignment = .center
+//        cell.textLabel?.text = arrayOfLanguages[indexPath.row]
+//        cell.textLabel?.textAlignment = .center
+        cell.languagesLabel.text = arrayOfLanguages[indexPath.row]
+        cell.languagesLabel.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
         if userDefault.value(forKeyPath: "Language by default") != nil {
             
             if indexPath.row == userDefault.value(forKeyPath: "Language by default") as! Int {
@@ -118,7 +120,7 @@ extension LanguagesViewController : UITableViewDataSource , UITableViewDelegate 
         }
         cell.tintColor = UIColor(hexString: (mode?.tickForLanguageColor)!)
         cell.contentView.superview!.backgroundColor = UIColor(hexString: (mode?.colorForBackgroundInTableView)!)
-        cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
+//        cell.textLabel?.textColor = UIColor(hexString: (mode?.colorForTextColorInTableViewCells)!)
         
         
         
