@@ -1,5 +1,4 @@
-
-# Flashcard Maker
+# FlashcardMaker
 
 ### Screen Shots
 
@@ -58,4 +57,4 @@ width="240" height="510">,<img src="https://user-images.githubusercontent.com/45
 
 - LinkedIn - [LinkedIn: Pylyp Chernov](https://www.linkedin.com/in/pylyp-chernov-7ab4041a2/)
 
-[Back To The Top](#Simple-Flash-Card-Maker)
+[Back To The Top](#FlashcardMaker)
