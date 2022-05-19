@@ -3,6 +3,11 @@
 
 ### Screen Shots
 
+<img src="https://user-images.githubusercontent.com/45902091/169403780-5149df02-03ae-44df-b08d-ce9188c00a55.PNG" width="240" height="510">
+<img src="https://user-images.githubusercontent.com/45902091/169403883-b68b4993-49e9-44d1-8fa2-4414aee5cc1f.gif" width="240" height="510">
+
+
+
 
 ---
 
