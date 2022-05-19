@@ -23,7 +23,7 @@
 
 - This app is for creating and learning note cards which are used for testing and improving memory through practised information retrieval. Can be used to study different disciplines.
 
-- The app used RealmSwift for user data persistence and other 3rd part libraries
+- The app uses RealmSwift for user data persistence and other 3rd part libraries
 
 - Project was completed using programmatic UI and storyboard
 
