@@ -2,9 +2,10 @@
 
 ### Screen Shots
 
+<p align="center">
 <img src="https://user-images.githubusercontent.com/45902091/169407632-5ccec0fa-ec7d-437d-b7f0-69657525fb25.png"
 width="240" height="510">,<img src="https://user-images.githubusercontent.com/45902091/169406037-bb89aa1f-35fb-4bc8-bbf3-be5ea84726f3.gif" width="240" height="510"> ,<img src="https://user-images.githubusercontent.com/45902091/169408690-c744763e-d27f-4f5c-9a6d-796f08c7a51a.png" width="240" height="510">  
-
+</p>
 
 
 
