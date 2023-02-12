@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "f71c5db75e139a206a824764e94dcc6dbe28b58f4470257b3b80a1be74f6ff02"
+build_start_time: [1676236436, 839076995]
+build_end_time: [1676236436, 888131141]
+inputs:
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatableReload/AnimatableReload/Classes/AnimatableReload.swift": !private [1675812905, 175754070]

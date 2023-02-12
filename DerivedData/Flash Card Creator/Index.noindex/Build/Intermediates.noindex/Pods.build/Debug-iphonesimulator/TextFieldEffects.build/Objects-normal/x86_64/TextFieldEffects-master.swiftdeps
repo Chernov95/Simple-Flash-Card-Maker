@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "4ef4299e3096cc09001b7b9bb9af54a209a0f224bf8112cae2197ebcff484154"
+build_start_time: [1676236362, 135908126]
+build_end_time: [1676236370, 223093032]
+inputs:
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/AkiraTextField.swift": [1675812905, 788510799]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/HoshiTextField.swift": [1675812905, 788673162]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/IsaoTextField.swift": [1675812905, 788834333]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/JiroTextField.swift": [1675812905, 788996219]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/KaedeTextField.swift": [1675812905, 789202690]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/MadokaTextField.swift": [1675812905, 789391517]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/MinoruTextField.swift": [1675812905, 789537906]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/TextFieldEffects.swift"
+  : [1675812905, 789680719]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/YokoTextField.swift": [1675812905, 789846658]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/YoshikoTextField.swift"
+  : [1675812905, 789977073]

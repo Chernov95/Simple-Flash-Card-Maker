@@ -1,0 +1,58 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "6ec2c878c35a0dcf239901fad2615742806a2fbea56de8f70db0d4e7ca010aef"
+    }
+  ],
+  "containerPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

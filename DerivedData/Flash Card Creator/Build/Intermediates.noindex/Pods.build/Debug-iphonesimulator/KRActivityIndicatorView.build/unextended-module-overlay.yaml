@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Build/Products/Debug-iphonesimulator/KRActivityIndicatorView/KRActivityIndicatorView.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/KRActivityIndicatorView.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "c03a57ab484abde96348e776d8769af9b1ead959fd1ee3ee9318ccdecbe5bf78"
+build_start_time: [1676236362, 120268821]
+build_end_time: [1676236370, 303668975]
+inputs:
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TransitionButton/Source/CGRectExtension.swift": [1675812905, 790619373]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TransitionButton/Source/CustomTransitionViewController.swift": [1675812905, 790751934]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TransitionButton/Source/FadeTransition.swift": [1675812905, 791030406]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TransitionButton/Source/SpinerLayer.swift": [1675812905, 791178226]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/TransitionButton/Source/TransitionButton.swift": [1675812905, 791326761]

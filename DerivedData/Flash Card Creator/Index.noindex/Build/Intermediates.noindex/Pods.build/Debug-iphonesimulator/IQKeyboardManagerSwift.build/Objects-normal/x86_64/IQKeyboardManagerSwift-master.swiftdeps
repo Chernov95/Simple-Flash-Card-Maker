@@ -1,0 +1,35 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "96596904a80fe3147af6d136f555664ee54ca8d8e8ba4add91fc0397fc6806d6"
+build_start_time: [1676236362, 124217033]
+build_end_time: [1676236370, 379613876]
+inputs:
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"
+  : [1675812905, 179842948]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"
+  : [1675812905, 180093765]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"
+  : [1675812905, 180251121]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"
+  : [1675812905, 180399894]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"
+  : [1675812905, 180631160]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift"
+  : [1675812905, 181065082]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift"
+  : [1675812905, 181300163]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardManager.swift": [1675812905, 181942939]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift"
+  : [1675812905, 182300329]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQTextView/IQTextView.swift"
+  : [1675812905, 182691574]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift"
+  : [1675812905, 183050632]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift"
+  : [1675812905, 183285951]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift"
+  : [1675812905, 183506965]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift"
+  : [1675812905, 183786392]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift": [1675812905, 184030294]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"
+  : [1675812905, 184298038]

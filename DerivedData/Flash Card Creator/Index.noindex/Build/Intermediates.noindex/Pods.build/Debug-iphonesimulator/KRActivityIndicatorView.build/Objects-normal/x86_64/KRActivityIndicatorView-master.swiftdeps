@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "67b2958c0b8d59d3badfc49d1e9285d26c16016e55a5c6c8156c79c3624b370b"
+build_start_time: [1676236362, 127279996]
+build_end_time: [1676236369, 872293949]
+inputs:
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/KRActivityIndicatorView/KRActivityIndicatorView/Classes/Extensions.swift": [1675812905, 187419414]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/KRActivityIndicatorView/KRActivityIndicatorView/Classes/KRActivityIndicatorView.swift"
+  : [1675812905, 187709569]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/KRActivityIndicatorView/KRActivityIndicatorView/Classes/KRActivityIndicatorViewStyle.swift"
+  : [1675812905, 187933444]

@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "cfe78a40c022407b11003b5eb69b216321d240130f09e3b8aa12159ad9cfd300"
+build_start_time: [1676236436, 828256130]
+build_end_time: [1676236436, 897263050]
+inputs:
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/AnimatedCollectionViewLayout.swift": !private [1675812905, 177019596]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/CrossFadeAttributesAnimator.swift": !private [1675812905, 177279233]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/CubeAttributesAnimator.swift": !private [1675812905, 177498102]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/LayoutAttributesAnimator.swift": !private [1675812905, 177697658]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/LinearCardAttributesAnimator.swift": !private [1675812905, 177887916]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/PageAttributesAnimator.swift": !private [1675812905, 178089618]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/ParallaxAttributesAnimator.swift": !private [1675812905, 178283691]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/RotateInOutAttributesAnimator.swift": !private [1675812905, 178480148]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/SnapInAttributesAnimator.swift": !private [1675812905, 178727149]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/UIView+Anchor.swift": !private [1675812905, 178938865]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/AnimatedCollectionViewLayout/Source/ZoomInOutAttributesAnimator.swift": !private [1675812905, 179150104]

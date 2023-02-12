@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "5b7f027f696bf2795431eaa55d8683d281703527ad8823553be6c0a9034abc30"
+build_start_time: [1676236369, 618534088]
+build_end_time: [1676236370, 513670921]
+inputs:
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/ViewAnimator/ViewAnimator/Classes/Extensions/UICollectionView + ViewAnimator.swift"
+  : [1675812905, 792062759]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/ViewAnimator/ViewAnimator/Classes/Extensions/UITableView + ViewAnimator.swift"
+  : [1675812905, 792341232]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/ViewAnimator/ViewAnimator/Classes/Models/AnimationType.swift": [1675812905, 792573213]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/ViewAnimator/ViewAnimator/Classes/Models/Direction.swift": [1675812905, 792750835]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/ViewAnimator/ViewAnimator/Classes/Protocols/Animation.swift": [1675812905, 792932510]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/ViewAnimator/ViewAnimator/Classes/ViewAnimator.swift": [1675812905, 793064594]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/ViewAnimator/ViewAnimator/Classes/ViewAnimatorConfig.swift": [1675812905, 793190956]

@@ -1,0 +1,10 @@
+framework module AnimatableReload {
+  umbrella header "AnimatableReload-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AnimatableReload.__Swift {
+  exclude header "AnimatableReload-Swift.h"
+}

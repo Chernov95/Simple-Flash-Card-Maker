@@ -1,0 +1,45 @@
+Target dependency graph (15 targets)
+AnimatableReload in Pods, no dependencies
+AnimatedCollectionViewLayout in Pods, no dependencies
+IQKeyboardManagerSwift in Pods, no dependencies
+KRActivityIndicatorView in Pods, no dependencies
+KRProgressHUD in Pods, depends on:
+KRActivityIndicatorView in Pods (explicit)
+Realm in Pods, no dependencies
+RealmSwift in Pods, depends on:
+Realm in Pods (explicit)
+SwipeCellKit in Pods, no dependencies
+SwipeSelectingCollectionView in Pods, no dependencies
+TextFieldEffects in Pods, no dependencies
+TransitionButton in Pods, no dependencies
+ViewAnimator in Pods, no dependencies
+WXImageCompress in Pods, no dependencies
+Pods-Flash Card Creator in Pods, depends on:
+AnimatableReload in Pods (explicit)
+AnimatedCollectionViewLayout in Pods (explicit)
+IQKeyboardManagerSwift in Pods (explicit)
+KRActivityIndicatorView in Pods (explicit)
+KRProgressHUD in Pods (explicit)
+Realm in Pods (explicit)
+RealmSwift in Pods (explicit)
+SwipeCellKit in Pods (explicit)
+SwipeSelectingCollectionView in Pods (explicit)
+TextFieldEffects in Pods (explicit)
+TransitionButton in Pods (explicit)
+ViewAnimator in Pods (explicit)
+WXImageCompress in Pods (explicit)
+Flash Card Creator in Flash Card Creator, depends on:
+Pods-Flash Card Creator in Pods (implicit dependency via file 'Pods_Flash_Card_Creator.framework' in build phase 'Link Binary')
+AnimatableReload in Pods (implicit dependency via options '-framework AnimatableReload' in build setting 'OTHER_LDFLAGS')
+AnimatedCollectionViewLayout in Pods (implicit dependency via options '-framework AnimatedCollectionViewLayout' in build setting 'OTHER_LDFLAGS')
+IQKeyboardManagerSwift in Pods (implicit dependency via options '-framework IQKeyboardManagerSwift' in build setting 'OTHER_LDFLAGS')
+KRActivityIndicatorView in Pods (implicit dependency via options '-framework KRActivityIndicatorView' in build setting 'OTHER_LDFLAGS')
+KRProgressHUD in Pods (implicit dependency via options '-framework KRProgressHUD' in build setting 'OTHER_LDFLAGS')
+Realm in Pods (implicit dependency via options '-framework Realm' in build setting 'OTHER_LDFLAGS')
+RealmSwift in Pods (implicit dependency via options '-framework RealmSwift' in build setting 'OTHER_LDFLAGS')
+SwipeCellKit in Pods (implicit dependency via options '-framework SwipeCellKit' in build setting 'OTHER_LDFLAGS')
+SwipeSelectingCollectionView in Pods (implicit dependency via options '-framework SwipeSelectingCollectionView' in build setting 'OTHER_LDFLAGS')
+TextFieldEffects in Pods (implicit dependency via options '-framework TextFieldEffects' in build setting 'OTHER_LDFLAGS')
+TransitionButton in Pods (implicit dependency via options '-framework TransitionButton' in build setting 'OTHER_LDFLAGS')
+ViewAnimator in Pods (implicit dependency via options '-framework ViewAnimator' in build setting 'OTHER_LDFLAGS')
+WXImageCompress in Pods (implicit dependency via options '-framework WXImageCompress' in build setting 'OTHER_LDFLAGS')

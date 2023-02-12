@@ -1,0 +1,10 @@
+framework module WXImageCompress {
+  umbrella header "WXImageCompress-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WXImageCompress.__Swift {
+  exclude header "WXImageCompress-Swift.h"
+}

@@ -1,0 +1,11 @@
+framework module AnimatableReload {
+  umbrella header "AnimatableReload-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AnimatableReload.Swift {
+  header "AnimatableReload-Swift.h"
+  requires objc
+}

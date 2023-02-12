@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/Build/Products/Debug-iphonesimulator/SwipeSelectingCollectionView/SwipeSelectingCollectionView.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwipeSelectingCollectionView.build/unextended-module.modulemap",
+    }]
+  }]
+}

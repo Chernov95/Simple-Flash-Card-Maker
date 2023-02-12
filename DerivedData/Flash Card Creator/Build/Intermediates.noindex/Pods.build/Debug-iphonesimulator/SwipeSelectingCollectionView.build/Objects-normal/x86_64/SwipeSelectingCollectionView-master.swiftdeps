@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "35f245a0da376ba47a5fe6b8d54cd2752ab99bd2809dbfa7828f797c9fbbe0a7"
+build_start_time: [1676236375, 329704999]
+build_end_time: [1676236383, 562345027]
+inputs:
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/SwipeSelectingCollectionView/Sources/SwipeSelectingCollectionView.swift": [1675812905, 771231174]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/SwipeSelectingCollectionView/Sources/SwipeSelectingGestureRecognizer.swift"
+  : [1675812905, 771370410]

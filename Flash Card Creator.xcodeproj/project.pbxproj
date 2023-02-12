@@ -32,6 +32,8 @@
 		C9C5D4C12288CF24004174C9 /* CreatDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5D4C02288CF24004174C9 /* CreatDeckViewController.swift */; };
 		C9D63553226581CE00AFC06F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D63552226581CE00AFC06F /* Card.swift */; };
 		C9DA714823A03805006AFF57 /* ReusableFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA714723A03805006AFF57 /* ReusableFunctions.swift */; };
+		C9DF7D7829998FC000B4B615 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF7D7729998FC000B4B615 /* MainView.swift */; };
+		C9DF7D7A299997EE00B4B615 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF7D79299997EE00B4B615 /* Extensions.swift */; };
 		C9EDD9E322B0663200023EBA /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDD9E222B0663200023EBA /* CardCollectionViewCell.swift */; };
 		C9EDD9E522B0664C00023EBA /* CardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDD9E422B0664C00023EBA /* CardCollectionViewController.swift */; };
 		C9EDD9E722B06E4E00023EBA /* ChosenLanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDD9E622B06E4E00023EBA /* ChosenLanguageCell.swift */; };
@@ -67,6 +69,8 @@
 		C9C5D4C02288CF24004174C9 /* CreatDeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatDeckViewController.swift; sourceTree = "<group>"; };
 		C9D63552226581CE00AFC06F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C9DA714723A03805006AFF57 /* ReusableFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableFunctions.swift; sourceTree = "<group>"; };
+		C9DF7D7729998FC000B4B615 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C9DF7D79299997EE00B4B615 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C9EDD9E222B0663200023EBA /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		C9EDD9E422B0664C00023EBA /* CardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewController.swift; sourceTree = "<group>"; };
 		C9EDD9E622B06E4E00023EBA /* ChosenLanguageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenLanguageCell.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				C96DCB372265666100E5D57D /* AppDelegate.swift */,
+				C9DF7D7729998FC000B4B615 /* MainView.swift */,
+				C9DF7D79299997EE00B4B615 /* Extensions.swift */,
 				C9FD9E9A2336615B008D4447 /* Model */,
 				C9FD9E992336614B008D4447 /* View */,
 				C9FD9E98233660B8008D4447 /* Controller */,
@@ -316,6 +322,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C94CACE5228C506300DD68D6 /* DecksCollectionViewController.swift in Sources */,
+				C9DF7D7A299997EE00B4B615 /* Extensions.swift in Sources */,
+				C9DF7D7829998FC000B4B615 /* MainView.swift in Sources */,
 				C91032F2231ECEDD0052DDFF /* ShakeCell.swift in Sources */,
 				C9EDD9E722B06E4E00023EBA /* ChosenLanguageCell.swift in Sources */,
 				C9C5D4BF2288BC13004174C9 /* Deck.swift in Sources */,
@@ -492,6 +500,7 @@
 				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 3QCJKKKPU8;
 				INFOPLIST_FILE = "$(SRCROOT)/Flash Card Creator/x.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,6 +527,7 @@
 				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 3QCJKKKPU8;
 				INFOPLIST_FILE = "$(SRCROOT)/Flash Card Creator/x.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

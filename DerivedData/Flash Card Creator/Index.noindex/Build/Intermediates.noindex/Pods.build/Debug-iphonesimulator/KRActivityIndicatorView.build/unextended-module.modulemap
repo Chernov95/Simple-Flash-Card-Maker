@@ -1,0 +1,10 @@
+framework module KRActivityIndicatorView {
+  umbrella header "KRActivityIndicatorView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module KRActivityIndicatorView.__Swift {
+  exclude header "KRActivityIndicatorView-Swift.h"
+}

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>268D790C-571A-4BC7-97F0-6DF873719440</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>268D790C-571A-4BC7-97F0-6DF873719440.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697929008.666785</real>
+			<key>timeStoppedRecording</key>
+			<real>697929010.38373196</real>
+			<key>title</key>
+			<string>Clean Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>268D790C-571A-4BC7-97F0-6DF873719440</string>
+		</dict>
+		<key>27E8769C-0CFD-42D1-9F29-F36DAFBAE633</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>27E8769C-0CFD-42D1-9F29-F36DAFBAE633.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697928955.44186401</real>
+			<key>timeStoppedRecording</key>
+			<real>697928960.54066503</real>
+			<key>title</key>
+			<string>Build Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>27E8769C-0CFD-42D1-9F29-F36DAFBAE633</string>
+		</dict>
+		<key>355B2198-BA29-4D86-80B2-EC80154F68A4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>355B2198-BA29-4D86-80B2-EC80154F68A4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697928816.10379601</real>
+			<key>timeStoppedRecording</key>
+			<real>697928825.24547803</real>
+			<key>title</key>
+			<string>Build Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>355B2198-BA29-4D86-80B2-EC80154F68A4</string>
+		</dict>
+		<key>503E5289-4867-4DA6-811E-E2169B87E09A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>503E5289-4867-4DA6-811E-E2169B87E09A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697928828.28367305</real>
+			<key>timeStoppedRecording</key>
+			<real>697928896.10853302</real>
+			<key>title</key>
+			<string>Build Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>503E5289-4867-4DA6-811E-E2169B87E09A</string>
+		</dict>
+		<key>5B03ABDE-AC75-4329-884B-5F6F29D77485</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5B03ABDE-AC75-4329-884B-5F6F29D77485.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697929160.08961594</real>
+			<key>timeStoppedRecording</key>
+			<real>697929253.08117104</real>
+			<key>title</key>
+			<string>Build Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>5B03ABDE-AC75-4329-884B-5F6F29D77485</string>
+		</dict>
+		<key>78B9B3E0-84D4-4867-9362-C8E292CB9D2B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>78B9B3E0-84D4-4867-9362-C8E292CB9D2B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697928924.82453406</real>
+			<key>timeStoppedRecording</key>
+			<real>697928929.38745403</real>
+			<key>title</key>
+			<string>Build Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>78B9B3E0-84D4-4867-9362-C8E292CB9D2B</string>
+		</dict>
+		<key>C07F244E-1839-44AF-BA1A-E3DED15D25F9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C07F244E-1839-44AF-BA1A-E3DED15D25F9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697929012.616189</real>
+			<key>timeStoppedRecording</key>
+			<real>697929075.45429504</real>
+			<key>title</key>
+			<string>Build Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>C07F244E-1839-44AF-BA1A-E3DED15D25F9</string>
+		</dict>
+		<key>E5EA51CD-9E14-4A03-B308-5C6FF4177069</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E5EA51CD-9E14-4A03-B308-5C6FF4177069.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697928694.45667398</real>
+			<key>timeStoppedRecording</key>
+			<real>697928694.65801203</real>
+			<key>title</key>
+			<string>Build Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>E5EA51CD-9E14-4A03-B308-5C6FF4177069</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

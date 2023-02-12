@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "a8d6f212d5c080feb801889a37a9e202e3f6fd5c8feffb7a40d17e515272b7a7"
+build_start_time: [1676236362, 121377944]
+build_end_time: [1676236369, 790804862]
+inputs:
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/WXImageCompress/Pod/Classes/WXImageCompress.swift": [1675812905, 793681621]

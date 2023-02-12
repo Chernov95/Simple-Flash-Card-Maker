@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>23A6A3CD-60B6-4D8E-9EA9-1F8CEA17A096</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>503E5289-4867-4DA6-811E-E2169B87E09A</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Flash Card Creator-2023.02.12_16-07-08--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697928828.28348196</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>23A6A3CD-60B6-4D8E-9EA9-1F8CEA17A096</string>
+		</dict>
+		<key>583ECA27-068C-4758-B3B7-BA4AE6C06DFF</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>E5EA51CD-9E14-4A03-B308-5C6FF4177069</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Flash Card Creator-2023.02.12_16-04-54--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697928694.45648503</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>583ECA27-068C-4758-B3B7-BA4AE6C06DFF</string>
+		</dict>
+		<key>AA34D1FF-25DD-4FFD-9DFF-BA7425C37CAA</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>27E8769C-0CFD-42D1-9F29-F36DAFBAE633</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Flash Card Creator-2023.02.12_16-09-15--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697928955.44164705</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>AA34D1FF-25DD-4FFD-9DFF-BA7425C37CAA</string>
+		</dict>
+		<key>C1321309-D126-448F-9037-3C6EFABE62A3</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>355B2198-BA29-4D86-80B2-EC80154F68A4</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Flash Card Creator-2023.02.12_16-06-56--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697928816.10366297</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>C1321309-D126-448F-9037-3C6EFABE62A3</string>
+		</dict>
+		<key>DE2EBF57-184E-42BF-A68B-FCD92F11325A</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>C07F244E-1839-44AF-BA1A-E3DED15D25F9</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Flash Card Creator-2023.02.12_16-10-12--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697929012.61597598</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>DE2EBF57-184E-42BF-A68B-FCD92F11325A</string>
+		</dict>
+		<key>FF397C81-30BC-4410-ABA0-4D63A9BBE2DE</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>5B03ABDE-AC75-4329-884B-5F6F29D77485</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Flash Card Creator-2023.02.12_16-12-40--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697929160.08938897</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>FF397C81-30BC-4410-ABA0-4D63A9BBE2DE</string>
+		</dict>
+		<key>FFA80647-611C-4B22-8EE9-7F685A0FCE20</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>78B9B3E0-84D4-4867-9362-C8E292CB9D2B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Flash Card Creator-2023.02.12_16-08-44--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flash Card Creator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flash Card Creator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Flash Card Creator</string>
+			<key>timeStartedRecording</key>
+			<real>697928924.82433796</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Flash Card Creator</string>
+			<key>uniqueIdentifier</key>
+			<string>FFA80647-611C-4B22-8EE9-7F685A0FCE20</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

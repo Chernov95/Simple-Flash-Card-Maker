@@ -1,0 +1,100 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "6ec2c878c35a0dcf239901fad2615742806a2fbea56de8f70db0d4e7ca010aef"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42afdf75462af76f00da874de43f62731e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ddf766c5f6220c4ee21ae8ea14105fc9"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4284c74cf34061f9457d52dcf0c13ca9d5"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42f663b7e43226351a8b5104ebcfb065c6"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c55f754f2a4256631cf6e7955c79207c"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4281644adaf2ad701878e9176138fbdacd"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42527c2db7d87b14aeb906dcdfde159052"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42cee1ea01cf6591bf6f9a5039033eef93"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42cfd1d6394655aeacac5a016961d542f7"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42746d7ece9213a2020ab80e4307cdec8b"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ab3a0b93ad670c611a0b094fe729be9a"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424e7f71579cb92992da2b6c2b84a940a8"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd429b394b2284376bfe7965c9e2572e9522"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4298f4039c4890a82d9a85a95623b438e2"
+    }
+  ],
+  "containerPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/DerivedData/Flash Card Creator/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

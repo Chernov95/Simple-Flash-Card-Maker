@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "84aa804111e792515daa9ea37ff75d99f75bc662f7d081f610c1481e4a6a1f71"
+build_start_time: [1676236435, 247730016]
+build_end_time: [1676236435, 303066015]
+inputs:
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/KRProgressHUD/KRProgressHUD/Classes/Extensions.swift": !private [1675812905, 188984394]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/KRProgressHUD/KRProgressHUD/Classes/InnerKRProgressHUD.swift": !private [1675812905, 189229726]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/KRProgressHUD/KRProgressHUD/Classes/KRProgressHUD.swift": !private [1675812905, 189463615]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/KRProgressHUD/KRProgressHUD/Classes/KRProgressHUDIconType.swift": !private [1675812905, 189682245]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Pods/KRProgressHUD/KRProgressHUD/Classes/KRProgressHUDViewController.swift": !private [1675812905, 189919471]

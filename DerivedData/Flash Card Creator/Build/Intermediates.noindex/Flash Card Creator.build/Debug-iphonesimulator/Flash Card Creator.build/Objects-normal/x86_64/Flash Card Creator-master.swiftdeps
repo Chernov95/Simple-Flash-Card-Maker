@@ -1,0 +1,33 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "866920c5ea332afc15616a310a52262d8b4bc269701499a0e2d15d00b77e9f74"
+build_start_time: [1676236445, 329712867]
+build_end_time: [1676236445, 397017955]
+inputs:
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/AppDelegate.swift": !private [1676235917, 810074329]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/CardCollectionViewController.swift": !private [1676235966, 176338195]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/CardsInDeckCollectionViewController.swift": !private [1676235966, 176707983]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/CreatDeckViewController.swift": !private [1676235966, 177019834]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/CreateCardViewController.swift": !private [1676235966, 177325248]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/DecksCollectionViewController.swift": !private [1676235966, 177669286]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/Extensions And Reusable Functions/ReusableFunctions.swift"
+  : !private [1676235966, 178051233]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/Extensions And Reusable Functions/UIColorExtensionForProvidingHexString.swift"
+  : !private [1676235966, 178278446]
+  ? "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/Extensions And Reusable Functions/UITextFieldSetBottomBorder.swift"
+  : !private [1676235966, 178475856]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/LanguagesViewController.swift": !private [1676235966, 178757190]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/ReviewService.swift": !private [1676235966, 178987026]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/SettingsViewController.swift": !private [1676235966, 179192781]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Controller/TopCenterAlignLabel.swift": !private [1676235966, 179412364]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Model/Language .swift": !private [1676235966, 181004047]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Model/Mode.swift": !private [1676235966, 181239366]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Model/Realm/Card.swift": !private [1676235966, 183918952]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/Model/Realm/Deck.swift": !private [1676235966, 184160232]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/View/CardCollectionViewCell.swift": !private [1676235966, 179771661]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/View/ChosenLanguageCell.swift": !private [1676235966, 179986000]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/View/CollectionViewCell.swift": !private [1676235966, 180229187]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/View/DarkModeCell.swift": !private [1676235966, 180457353]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/View/LanguagesTableViewCell.swift": !private [1676235966, 180656194]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/View/RateTheAppCell.swift": !private [1676235966, 184357166]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/View/SendUsFeedbackCell.swift": !private [1676235966, 184583187]
+  "/Users/filipcernov/Desktop/Simple-Flash-Card-Maker/Flash Card Creator/UIKit/View/ShakeCell.swift": !private [1676235966, 189544439]

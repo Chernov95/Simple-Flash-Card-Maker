@@ -1,0 +1,10 @@
+framework module ViewAnimator {
+  umbrella header "ViewAnimator-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ViewAnimator.__Swift {
+  exclude header "ViewAnimator-Swift.h"
+}

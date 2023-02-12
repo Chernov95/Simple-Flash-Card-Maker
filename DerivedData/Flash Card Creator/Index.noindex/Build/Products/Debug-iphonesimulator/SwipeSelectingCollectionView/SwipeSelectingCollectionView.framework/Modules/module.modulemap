@@ -1,0 +1,11 @@
+framework module SwipeSelectingCollectionView {
+  umbrella header "SwipeSelectingCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwipeSelectingCollectionView.Swift {
+  header "SwipeSelectingCollectionView-Swift.h"
+  requires objc
+}
