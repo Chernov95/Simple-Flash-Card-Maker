@@ -12,6 +12,7 @@
 		C90EBBFD22A5A6DC00F09F42 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EBBFC22A5A6DC00F09F42 /* SettingsViewController.swift */; };
 		C90EBBFF22A5A6ED00F09F42 /* LanguagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EBBFE22A5A6ED00F09F42 /* LanguagesViewController.swift */; };
 		C91032F2231ECEDD0052DDFF /* ShakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91032F1231ECEDD0052DDFF /* ShakeCell.swift */; };
+		C917CAA5299AA21300F84AA8 /* DeckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917CAA4299AA21300F84AA8 /* DeckCell.swift */; };
 		C91ADE2622665CD200DAEFA6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91ADE2522665CD200DAEFA6 /* CollectionViewCell.swift */; };
 		C924441622A70B2A00857079 /* LanguagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924441522A70B2A00857079 /* LanguagesTableViewCell.swift */; };
 		C9446D0423369592007B4F3B /* UITextFieldSetBottomBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9446D0323369592007B4F3B /* UITextFieldSetBottomBorder.swift */; };
@@ -47,6 +48,7 @@
 		C90EBBFC22A5A6DC00F09F42 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C90EBBFE22A5A6ED00F09F42 /* LanguagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesViewController.swift; sourceTree = "<group>"; };
 		C91032F1231ECEDD0052DDFF /* ShakeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeCell.swift; sourceTree = "<group>"; };
+		C917CAA4299AA21300F84AA8 /* DeckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckCell.swift; sourceTree = "<group>"; };
 		C91ADE2522665CD200DAEFA6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		C924441522A70B2A00857079 /* LanguagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesTableViewCell.swift; sourceTree = "<group>"; };
 		C9446D0323369592007B4F3B /* UITextFieldSetBottomBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldSetBottomBorder.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				C96DCB372265666100E5D57D /* AppDelegate.swift */,
 				C9DF7D7729998FC000B4B615 /* MainView.swift */,
 				C9DF7D79299997EE00B4B615 /* Extensions.swift */,
+				C917CAA4299AA21300F84AA8 /* DeckCell.swift */,
 				C9FD9E9A2336615B008D4447 /* Model */,
 				C9FD9E992336614B008D4447 /* View */,
 				C9FD9E98233660B8008D4447 /* Controller */,
@@ -345,6 +348,7 @@
 				C90689A12318292B0034B9F3 /* ReviewService.swift in Sources */,
 				C9FD9EA023367464008D4447 /* UIColorExtensionForProvidingHexString.swift in Sources */,
 				C9964D27282C26E800EEE4C6 /* SendUsFeedbackCell.swift in Sources */,
+				C917CAA5299AA21300F84AA8 /* DeckCell.swift in Sources */,
 				C9EDD9E322B0663200023EBA /* CardCollectionViewCell.swift in Sources */,
 				C9DA714823A03805006AFF57 /* ReusableFunctions.swift in Sources */,
 				C96DCB382265666100E5D57D /* AppDelegate.swift in Sources */,

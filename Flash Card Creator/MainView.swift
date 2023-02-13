@@ -9,7 +9,9 @@
 import SwiftUI
 
 struct MainView: View {
-    @State private var decks = ["English", "Japanese", "Latin", "Anatomy"]
+    
+    @State private var decks = ["English", "Japanese", "Latin", "Anatomy", "Grammar", "Art", "Literature", "Law", "Programming"]
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -18,7 +20,7 @@ struct MainView: View {
                 }, label: {
                     Image("CreateDeckEnglish")
                 })
-                .frame(width: 400, height: 160, alignment: .center)
+                .frame(width: 300, height: 150)
                 HStack {
                     Image(systemName: "star.fill")
                         .foregroundColor(.yellow)
@@ -28,15 +30,19 @@ struct MainView: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 Divider()
-                List(decks, id: \.self) {
-                    Text($0)
-                        .foregroundColor(.white)
-                        .fontWeight(.heavy)
-                        .listRowSeparator(.hidden)
-                        .listRowBackground(Color(hex: "54B4F2"))
+                List {
+                    ForEach(decks, id: \.self) {
+                        DeckCell(deckName: $0)
+                    }
+                    .onDelete { indexSet in
+                        decks.remove(atOffsets: indexSet)
+                    }
+                    .onMove { source, destination in
+                        decks.move(fromOffsets: source, toOffset: destination)
+                    }
                 }
                 .scrollContentBackground(.hidden)
-                
+                .listStyle(.plain)
             }
             // Navigation bar styling
                 .navigationBarTitleDisplayMode(.inline)
@@ -61,6 +67,9 @@ struct MainView: View {
     
     private func createDeckButtonPressed() {
         print("Create deck button pressed")
+        withAnimation {
+            decks.insert("SwiftUI\(UUID())", at: 0)
+        }
     }
     
     private func settingsButtonPressed() {
