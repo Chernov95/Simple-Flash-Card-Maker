@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct MainView: View {
+    @State private var decks = ["English", "Japanese", "Latin", "Anatomy"]
     var body: some View {
         NavigationStack {
             VStack {
@@ -17,6 +18,7 @@ struct MainView: View {
                 }, label: {
                     Image("CreateDeckEnglish")
                 })
+                .frame(width: 400, height: 160, alignment: .center)
                 HStack {
                     Image(systemName: "star.fill")
                         .foregroundColor(.yellow)
@@ -26,6 +28,15 @@ struct MainView: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 Divider()
+                List(decks, id: \.self) {
+                    Text($0)
+                        .foregroundColor(.white)
+                        .fontWeight(.heavy)
+                        .listRowSeparator(.hidden)
+                        .listRowBackground(Color(hex: "54B4F2"))
+                }
+                .scrollContentBackground(.hidden)
+                
             }
             // Navigation bar styling
                 .navigationBarTitleDisplayMode(.inline)
