@@ -12,6 +12,8 @@ struct MainView: View {
     
     @State private var decks = ["English", "Japanese", "Latin", "Anatomy", "Grammar", "Art", "Literature", "Law", "Programming"]
     
+    @State private var searchDeck = ""
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -62,6 +64,16 @@ struct MainView: View {
                 }
                 .toolbarBackground(Color(hex: "54B4F2"), for: .navigationBar)
                 .toolbarBackground(.visible, for: .navigationBar)
+            
+            // Adds search bar
+                .searchable(text: $searchDeck)
+                .onChange(of: searchDeck) { searchText in
+                    if !searchText.isEmpty {
+                        decks = decks.filter { $0.contains(searchText) }
+                    } else {
+                        decks = decks 
+                    }
+                }
         }
     }
     
