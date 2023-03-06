@@ -20,50 +20,54 @@ struct SettingsView: View {
             Section {
                 HStack {
                     Image("ModeIcon")
-                        .resizable()
-                        .frame(width: 35, height: 35)
-                    Toggle(isOn: $darkModeIsOn) {
+                        .settingsIconModifier()
+                    ZStack {
+                        Toggle(isOn: $darkModeIsOn) {
+                           
+                        }
                         Text("Dark mode")
-                            .frame(maxWidth: .infinity, alignment: .center)
+                            .offset(x: -8)
                     }
                 }
                 HStack {
                     Image("LanguageIcon")
-                        .resizable()
-                        .frame(width: 35, height: 35)
+                        .settingsIconModifier()
                     ZStack {
                         Picker("", selection: $selectedLanguage) {
                             ForEach(languages, id: \.self) {
                                 Text($0)
                             }
+                            
                         }
+                        .offset(x: 15)
                         Text("Language")
+                            .offset(x: -8)
                     }
                 }
                 .frame(maxHeight: 10)
                 HStack {
                     Image("ShuffleIcon")
-                        .resizable()
-                        .frame(width: 35, height: 35)
-                    Toggle(isOn: $shuffleDeckIsOn) {
+                        .settingsIconModifier()
+                    ZStack {
+                        Toggle(isOn: $shuffleDeckIsOn) {
+                            
+                        }
                         Text("Shuffle deck")
-                            .frame(maxWidth: .infinity, alignment: .center)
+                            .offset(x: -8)
                     }
                 }
             }
             Section {
                 HStack {
                     Image("RateTheAppIcon")
-                        .resizable()
-                        .frame(width: 35, height: 35)
+                        .settingsIconModifier()
                     Spacer()
                     Text("Rate the app")
                     Spacer()
                 }
                 HStack {
                     Image("SendUsFeedbackIcon")
-                        .resizable()
-                        .frame(width: 35, height: 35)
+                        .settingsIconModifier()
                     Spacer()
                     Text("Send us feedback")
                     Spacer()
@@ -79,6 +83,13 @@ struct SettingsView: View {
     }
 }
 
+extension Image {
+    func settingsIconModifier() -> some View {
+        self
+            .resizable()
+            .frame(width: 35, height: 35)
+   }
+}
 
 struct SettingsTitle: ViewModifier {
     func body(content: Content) -> some View {
