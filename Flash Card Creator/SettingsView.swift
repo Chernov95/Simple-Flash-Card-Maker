@@ -16,70 +16,72 @@ struct SettingsView: View {
     let languages = ["🇺🇸English", "🇨🇳Chinese", "🇫🇷French", "🇺🇦Ukrainian"]
     
     var body: some View {
-        Form {
-            Section {
-                HStack {
-                    Image("ModeIcon")
-                        .settingsIconModifier()
-                    ZStack {
-                        Toggle(isOn: $darkModeIsOn) {
-                           
-                        }
-                        Text("Dark mode")
-                            .offset(x: -8)
-                    }
-                }
-                HStack {
-                    Image("LanguageIcon")
-                        .settingsIconModifier()
-                    ZStack {
-                        Picker("", selection: $selectedLanguage) {
-                            ForEach(languages, id: \.self) {
-                                Text($0)
+        GeometryReader { geometry in
+            Form {
+                Section {
+                    HStack {
+                        Image("ModeIcon")
+                            .settingsIconModifier()
+                        ZStack {
+                            Toggle(isOn: $darkModeIsOn) {
+                               
                             }
-                            
+                            Text("Dark mode")
+                                .offset(x: -8)
                         }
-                        .offset(x: 15)
-                        Text("Language")
-                            .offset(x: -8)
+                    }
+                    HStack {
+                        Image("LanguageIcon")
+                            .settingsIconModifier()
+                        ZStack {
+                            Picker("", selection: $selectedLanguage) {
+                                ForEach(languages, id: \.self) {
+                                    Text($0)
+                                }
+                                
+                            }
+                            .offset(x: 15)
+                            Text("Language")
+                                .offset(x: -8)
+                        }
+                    }
+                    .frame(maxHeight: 10)
+                    HStack {
+                        Image("ShuffleIcon")
+                            .settingsIconModifier()
+                        ZStack {
+                            Toggle(isOn: $shuffleDeckIsOn) {
+                                
+                            }
+                            Text("Shuffle deck")
+                                .offset(x: -8)
+                        }
                     }
                 }
-                .frame(maxHeight: 10)
-                HStack {
-                    Image("ShuffleIcon")
-                        .settingsIconModifier()
-                    ZStack {
-                        Toggle(isOn: $shuffleDeckIsOn) {
-                            
-                        }
-                        Text("Shuffle deck")
-                            .offset(x: -8)
+                Section {
+                    HStack {
+                        Image("RateTheAppIcon")
+                            .settingsIconModifier()
+                        Spacer()
+                        Text("Rate the app")
+                        Spacer()
                     }
-                }
-            }
-            Section {
-                HStack {
-                    Image("RateTheAppIcon")
-                        .settingsIconModifier()
-                    Spacer()
-                    Text("Rate the app")
-                    Spacer()
-                }
-                HStack {
-                    Image("SendUsFeedbackIcon")
-                        .settingsIconModifier()
-                    Spacer()
-                    Text("Send us feedback")
-                    Spacer()
+                    HStack {
+                        Image("SendUsFeedbackIcon")
+                            .settingsIconModifier()
+                        Spacer()
+                        Text("Send us feedback")
+                        Spacer()
 
+                    }
                 }
+                
             }
-            
+            .background(Color.white)
+            .frame(height: geometry.size.height * 0.6)
+            .cornerRadius(8)
         }
-        .background(Color.white)
-        .frame(width: UIScreen.main.bounds.width - 30,
-               height: UIScreen.main.bounds.height - 600)
-        .cornerRadius(8)
+        .padding(.horizontal, 10)
     }
 }
 

@@ -56,10 +56,11 @@ struct MainView: View {
                 }
             }.opacity(self.shouldShowSettingsView ? 0.5 : 1)
             if self.shouldShowSettingsView {
-                GeometryReader { _ in
+                GeometryReader { geometry in
                     VStack {
                         SettingsView()
                             .frame( maxWidth: .infinity, maxHeight: .infinity)
+                            .position(x: geometry.frame(in: .global).midX, y: geometry.frame(in: .global).midY)
                         Button(action: {
                             withAnimation {
                                 self.shouldShowSettingsView.toggle()
