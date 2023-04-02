@@ -12,7 +12,7 @@ struct MainView: View {
     
     @State private var decks = ["English", "Japanese", "Latin", "Anatomy", "Grammar", "Art", "Literature", "Law", "Programming"]
     @State private var shouldShowSettingsView: Bool = false
-    
+    @State private var shouldShowCreateDeckView: Bool = false
     @State private var searchDeck = ""
     
     var body: some View {
@@ -20,37 +20,8 @@ struct MainView: View {
             ZStack {
                 NavigationStack {
                     VStack {
-                        Button(action: {
-                            createDeckButtonPressed()
-                        }, label: {
-                            Image("CreateDeckEnglish")
-                        })
-                        .frame(width: 300, height: 130)
-                        .offset(y: 15)
-                        List {
-                            Section {
-                                ForEach(decks, id: \.self) {
-                                    DeckCell(deckName: $0)
-                                }
-                                .onDelete { indexSet in
-                                    decks.remove(atOffsets: indexSet)
-                                }
-                                .onMove { source, destination in
-                                    decks.move(fromOffsets: source, toOffset: destination)
-                                }
-                                .listRowSeparator(.hidden)
-                            } header: {
-                                HStack() {
-                                    Image(systemName: "star.fill")
-                                        .foregroundColor(.yellow)
-                                        .padding(.leading)
-                                    Text("My Decks :")
-                                        .foregroundColor(.gray)
-                                }
-                                .offset(x: -18)
-                            }
-                        }
-                        .listStyle(.plain)
+                        createDeckButton
+                        listOfDecks
                     }
                     // Navigation bar styling
                     .navigationBarTitleDisplayMode(.inline)
@@ -108,6 +79,45 @@ struct MainView: View {
             }
         }
     }
+    
+    private var createDeckButton: some View {
+        Button(action: {
+            createDeckButtonPressed()
+            shouldShowCreateDeckView.toggle()
+        }, label: {
+            Image("CreateDeckEnglish")
+        })
+        .frame(width: 300, height: 130)
+        .offset(y: 15)
+    }
+    
+    private var listOfDecks: some View {
+        List {
+            Section {
+                ForEach(decks, id: \.self) {
+                    DeckCell(deckName: $0)
+                }
+                .onDelete { indexSet in
+                    decks.remove(atOffsets: indexSet)
+                }
+                .onMove { source, destination in
+                    decks.move(fromOffsets: source, toOffset: destination)
+                }
+                .listRowSeparator(.hidden)
+            } header: {
+                HStack() {
+                    Image(systemName: "star.fill")
+                        .foregroundColor(.yellow)
+                        .padding(.leading)
+                    Text("My Decks :")
+                        .foregroundColor(.gray)
+                }
+                .offset(x: -18)
+            }
+        }
+        .listStyle(.plain)
+    }
+    
     
     private func createDeckButtonPressed() {
         print("Create deck button pressed")

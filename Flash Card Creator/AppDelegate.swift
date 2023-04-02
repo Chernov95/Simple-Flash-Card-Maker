@@ -13,8 +13,9 @@ struct FlashCardMaker: App {
    
     var body: some Scene {
         WindowGroup {
-//            MainView()
-            CustomTextField()
+            MainView()
+//            CustomTextField()
+//            CreateDeckView()
         }
     }
 }

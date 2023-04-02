@@ -12,17 +12,25 @@ struct CreateDeckView: View {
     @State private var deckName = ""
     var body: some View {
         VStack {
+            Spacer()
            CustomTextField()
-            Button("OK") {
-                createDeck()
+            VStack {
+                Button("Create") {
+                    createDeck()
+                }
+                .frame(width: 270, height: 50)
+                .border(Color.blue)
+                .ignoresSafeArea(.keyboard)
+                Button("Cancel", role: .destructive) {
+                    cancelDeckCreation()
+                }
+                .frame(width: 270, height: 50)
+                .border(Color.red)
             }
-            .padding()
-            
-            Button("Cancel", role: .destructive) {
-                cancelDeckCreation()
-            }
-            .padding()
-            
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
         }
     }
     
