@@ -17,9 +17,11 @@
 		C924441622A70B2A00857079 /* LanguagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924441522A70B2A00857079 /* LanguagesTableViewCell.swift */; };
 		C9446D0423369592007B4F3B /* UITextFieldSetBottomBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9446D0323369592007B4F3B /* UITextFieldSetBottomBorder.swift */; };
 		C9478CD12295BBE200124359 /* Language .swift in Sources */ = {isa = PBXBuildFile; fileRef = C9478CD02295BBE200124359 /* Language .swift */; };
+		C9498A0A29B697F700D72949 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9498A0929B697F700D72949 /* CustomTextField.swift */; };
 		C94CACE5228C506300DD68D6 /* DecksCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94CACE4228C506300DD68D6 /* DecksCollectionViewController.swift */; };
 		C95B58AD22C265DD0094663F /* TopCenterAlignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B58AC22C265DD0094663F /* TopCenterAlignLabel.swift */; };
 		C960403E29A17182008EA058 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960403D29A17182008EA058 /* SettingsView.swift */; };
+		C961177329B656F1003DDA33 /* CreateDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961177229B656F1003DDA33 /* CreateDeckView.swift */; };
 		C96DCB382265666100E5D57D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96DCB372265666100E5D57D /* AppDelegate.swift */; };
 		C96DCB3D2265666100E5D57D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96DCB3B2265666100E5D57D /* Main.storyboard */; };
 		C96DCB3F2265666200E5D57D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96DCB3E2265666200E5D57D /* Assets.xcassets */; };
@@ -54,9 +56,11 @@
 		C924441522A70B2A00857079 /* LanguagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesTableViewCell.swift; sourceTree = "<group>"; };
 		C9446D0323369592007B4F3B /* UITextFieldSetBottomBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldSetBottomBorder.swift; sourceTree = "<group>"; };
 		C9478CD02295BBE200124359 /* Language .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language .swift"; sourceTree = "<group>"; };
+		C9498A0929B697F700D72949 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		C94CACE4228C506300DD68D6 /* DecksCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecksCollectionViewController.swift; sourceTree = "<group>"; };
 		C95B58AC22C265DD0094663F /* TopCenterAlignLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCenterAlignLabel.swift; sourceTree = "<group>"; };
 		C960403D29A17182008EA058 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C961177229B656F1003DDA33 /* CreateDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDeckView.swift; sourceTree = "<group>"; };
 		C96DCB342265666100E5D57D /* Flash Card Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Card Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96DCB372265666100E5D57D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C96DCB3C2265666100E5D57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				C9DF7D7729998FC000B4B615 /* MainView.swift */,
 				C9DF7D79299997EE00B4B615 /* Extensions.swift */,
 				C917CAA4299AA21300F84AA8 /* DeckCell.swift */,
+				C961177229B656F1003DDA33 /* CreateDeckView.swift */,
+				C9498A0929B697F700D72949 /* CustomTextField.swift */,
 				C960403D29A17182008EA058 /* SettingsView.swift */,
 				C9FD9E9A2336615B008D4447 /* Model */,
 				C9FD9E992336614B008D4447 /* View */,
@@ -345,7 +351,9 @@
 				C90EBBFF22A5A6ED00F09F42 /* LanguagesViewController.swift in Sources */,
 				C924441622A70B2A00857079 /* LanguagesTableViewCell.swift in Sources */,
 				C90EBBFD22A5A6DC00F09F42 /* SettingsViewController.swift in Sources */,
+				C9498A0A29B697F700D72949 /* CustomTextField.swift in Sources */,
 				C960403E29A17182008EA058 /* SettingsView.swift in Sources */,
+				C961177329B656F1003DDA33 /* CreateDeckView.swift in Sources */,
 				C9B614B222843AD60042D4E8 /* CreateCardViewController.swift in Sources */,
 				C9D63553226581CE00AFC06F /* Card.swift in Sources */,
 				C9EDD9E522B0664C00023EBA /* CardCollectionViewController.swift in Sources */,

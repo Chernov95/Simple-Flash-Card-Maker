@@ -38,6 +38,7 @@ struct MainView: View {
                                 .onMove { source, destination in
                                     decks.move(fromOffsets: source, toOffset: destination)
                                 }
+                                .listRowSeparator(.hidden)
                             } header: {
                                 HStack() {
                                     Image(systemName: "star.fill")
@@ -88,7 +89,6 @@ struct MainView: View {
                     VStack {
                         SettingsView()
                             .frame( maxWidth: .infinity, maxHeight: .infinity)
-                        
                         Button(action: {
                             withAnimation {
                                 self.shouldShowSettingsView.toggle()
@@ -115,7 +115,6 @@ struct MainView: View {
             decks.insert("SwiftUI\(UUID())", at: 0)
         }
     }
-    
 }
 
 struct MainView_Previews: PreviewProvider {
